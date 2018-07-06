@@ -26,8 +26,9 @@ export class LocaisPage {
 
   mostrarDetalhes(estabelecimento: String){
     this.navCtrl.push(DetalhePage, {
-      servicoestabelecimento: estabelecimento
+      estabelecimento: estabelecimento
     })
+    console.log(estabelecimento);
   }
 
 }

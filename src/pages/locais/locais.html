@@ -16,43 +16,25 @@
 <ion-content padding>
 
   <ion-card *ngFor="let local of locais;">
-    <!-- <img src="assets/imgs/grupal.jpg" />
-    <div class="card-title">Grupal</div> -->
-    <ion-card-header>
-      {{local.nome}}
-    </ion-card-header>
-
-    <!-- <button ion-item *ngIf="local.end"> -->
-
-    <div *ngIf="local.end" ion-item>
+    <div (click)="mostrarDetalhes(local)">
+      <ion-card-header>
+        {{local.nome}}
+      </ion-card-header>
+      <div *ngIf="local.end" ion-item>
         <ion-icon name="md-map" item-start></ion-icon>
-      {{local.end}}
-    </div>
+        {{local.end}}
+      </div>
 
-    <div *ngIf="local.tel" ion-item>
+      <div *ngIf="local.tel" ion-item>
         <ion-icon name="md-call" item-start></ion-icon>
-      {{local.tel}}
-    </div>
+        {{local.tel}}
+      </div>
 
-    <div *ngIf="local.valor" ion-item>
+      <div *ngIf="local.valor" ion-item>
         <ion-icon name="md-cash" item-start></ion-icon>
-      {{local.valor}}
+        {{local.valor}}
+      </div>
     </div>
-
-
-    <!-- </button> -->
-
-
-    <!-- 
-    end: "Av. Luís Viana Filho, 6775, Paralela",
-    tel: "3206-8015",
-    valor: "Gratuito", -->
-
-
-    <!-- {{item.a1}} {{item.a1}} -->
   </ion-card>
-
-
-
 
 </ion-content>
