@@ -18,17 +18,19 @@ export class LocalServiceProvider {
 
   obterEstabelecimentos(): any {
    
-    // Tipos de serviço
+    // Tipos de serviço psicologia
     let s = {
-      "i": "Psicoterapia individual",
-      "g": "Psicoterapia de Grupo",
-      "f": "Psicoterapia Familiar",
-      "c": "Psicoterapia Conjugal",
-      "o": "Orientação Profissional",
+      "i":  "Terapia individual",
+      "g":  "Terapia de Grupo",  
+      "f":  "Terapia Familiar",
+      "c":  "Terapia Conjugal",
+      "o":  "Orientação Profissional",
       "gc": "Grupo para crianças",
       "ga": "Grupo para adolescentes"
     }
+  
 
+// Tipos de serviço psicologia
 
 
     let estabelecimentos = [
@@ -38,9 +40,19 @@ export class LocalServiceProvider {
         nome: "",
         end: "",
         tel: "",
-        valor: "",
+        valor: "Gratuito",
         servico: [,],
         mapa: ''
+      },
+
+      {
+        nome: "Hospital Geral Couto Maia",
+        end: "Rua São Francisco, s/n, Monte Serrat",
+        tel: "3316-3084",
+        valor: "Gratuito",
+        servico: [s.i,s.f],
+        descricao_servicos: "Neurologia e acompanhamento psicológico a pacientes com hanseníase e familiares",
+        mapa: 'https://goo.gl/maps/cLu8b8JVmuS2'
       },
 
 
