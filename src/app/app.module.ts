@@ -9,13 +9,15 @@ import { HomePage } from '../pages/home/home';
 import { LocalServiceProvider } from '../providers/local-service/local-service';
 import { LocaisPage } from '../pages/locais/locais';
 import { DetalhePage } from '../pages/detalhe/detalhe';
+import { SanitizeHtmlPipe } from '../pipes/sanitize-html/sanitize-html';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     LocaisPage,
-    DetalhePage,    
+    DetalhePage,
+    SanitizeHtmlPipe,    
   ],
   imports: [
     BrowserModule,

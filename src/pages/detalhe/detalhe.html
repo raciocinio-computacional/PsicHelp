@@ -33,6 +33,12 @@
           <ion-icon name="md-cash" item-start></ion-icon>
           {{estabelecimento.valor}}
         </div>
+
+        <div *ngIf="estabelecimento.descricao_servicos" ion-item>
+            <ion-icon name="md-cash" item-start></ion-icon>
+            {{estabelecimento.descricao_servicos}}
+          </div>
+
     </ion-card>
   
   </ion-content>
