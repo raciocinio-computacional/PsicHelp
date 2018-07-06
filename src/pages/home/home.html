@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      PsicHelp  
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="card-background-page">
+  <!-- <ion-card (click)="goToAtendimento()"> -->
+  <!-- <ion-card>
+    <img src="assets/imgs/individual.jpg" />
+    <div class="card-title">Individual</div>
+  </ion-card> -->
+
+  <ion-card (click)="listar('Psicoterapia individual')">
+    <img src="assets/imgs/individual_velho.jpg" />
+    <div class="card-title">Individual</div>
+  </ion-card>
+
+  <!-- <ion-card (click)="goToBook()"> -->
+  <ion-card (click)="listar('Psicoterapia de Grupo')">
+    <img src="assets/imgs/grupal.jpg" />
+    <div class="card-title">Grupal</div>
+  </ion-card>
+  <ion-card (click)="listar('Psicoterapia Familiar')">
+    <img src="assets/imgs/familiar.jpg" />
+    <div class="card-title">Familiar</div>
+  </ion-card>
+
+  <ion-card (click)="listar('Psicoterapia Conjugal')">
+    <img src="assets/imgs/casal.jpg" />
+    <div class="card-title">Conjugal</div>
+  </ion-card>
+
+  <ion-card (click)="listar('Orientação Profissional')">
+    <img src="assets/imgs/profissional.jpg" />
+    <div class="card-title">Profissional</div>
+  </ion-card>
+
+</ion-content>
