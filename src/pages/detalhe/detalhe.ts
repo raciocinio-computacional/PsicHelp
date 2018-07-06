@@ -15,7 +15,11 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class DetalhePage {
 
+  estabelecimento: any;
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.estabelecimento = this.navParams.get('estabelecimento');
+    // console.log(this.estabelecimento);
   }
 
   ionViewDidLoad() {

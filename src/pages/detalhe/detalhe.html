@@ -7,7 +7,7 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>detalhe</ion-title>
+    <ion-title>Detalhes</ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -15,4 +15,24 @@
 
 <ion-content padding>
 
-</ion-content>
+    <ion-card>
+        <ion-card-header>
+          {{estabelecimento.nome}}
+        </ion-card-header>
+        <div *ngIf="estabelecimento.end" ion-item>
+          <ion-icon name="md-map" item-start></ion-icon>
+          {{estabelecimento.end}}
+        </div>
+  
+        <div *ngIf="estabelecimento.tel" ion-item>
+          <ion-icon name="md-call" item-start></ion-icon>
+          {{estabelecimento.tel}}
+        </div>
+  
+        <div *ngIf="estabelecimento.valor" ion-item>
+          <ion-icon name="md-cash" item-start></ion-icon>
+          {{estabelecimento.valor}}
+        </div>
+    </ion-card>
+  
+  </ion-content>
