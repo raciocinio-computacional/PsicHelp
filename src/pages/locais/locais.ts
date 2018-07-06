@@ -1,13 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { LocalServiceProvider } from '../../providers/local-service/local-service';
+import { DetalhePage } from '../detalhe/detalhe';
 
-/**
- * Generated class for the LocaisPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
 
 @IonicPage()
 @Component({
@@ -27,6 +22,12 @@ export class LocaisPage {
     console.log('ionViewDidLoad LocaisPage');
     this.locais = this.localService.obterEstabelecimentosPorServico(this.servico)
     console.log(this.locais);
+  }
+
+  mostrarDetalhes(estabelecimento: String){
+    this.navCtrl.push(DetalhePage, {
+      servicoestabelecimento: estabelecimento
+    })
   }
 
 }

@@ -8,12 +8,14 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { LocalServiceProvider } from '../providers/local-service/local-service';
 import { LocaisPage } from '../pages/locais/locais';
+import { DetalhePage } from '../pages/detalhe/detalhe';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    LocaisPage
+    LocaisPage,
+    DetalhePage,    
   ],
   imports: [
     BrowserModule,
@@ -23,7 +25,8 @@ import { LocaisPage } from '../pages/locais/locais';
   entryComponents: [
     MyApp,
     HomePage,
-    LocaisPage
+    LocaisPage,
+    DetalhePage,
   ],
   providers: [
     StatusBar,

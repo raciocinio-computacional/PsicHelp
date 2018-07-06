@@ -71,6 +71,52 @@ export class LocalServiceProvider {
       },
 
 
+//Ester
+
+      {
+        nome: "IBR - Instituto Baiano de Reabilitação",
+        end: " Av. Presidente Vargas, no 2947, Ondina.",
+        tel: "Tel: 3504-5900",
+        // E-mail: ibr@fjs.org.br
+        valor: "Gratuito",
+        servico: [s.i,s.f],
+        descricao_servicos: "Reabilitação e atendimento psicossocial a pessoa com deficiência física",
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> '
+      },
+
+      {
+        nome: "Centro de Atendimento Educacional Especializado Pestalozzi da Bahia",
+        end: " Av. Ademar de Barros, s/n, Ondina.",
+        tel: " 3247-0049/3331-9456",
+        valor: "Gratuito",
+        servico:  [s.i,s.f,s.g],
+        descricao_servicos: "Serviços: Educacionais, pedagógicos e psicopedagógicos a pessoas de 6 a 35 anos com necessidades educacionais especiais em deficiência intelectual e TGB - Transtorno Global em Desenvolvimento (autismo). Núcleos de arte-cultura, esporte e lazer, apoio pedagógico e de tecnologia e informação.",
+        mapa: ' <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.46869232791!2d-38.511250049144174!3d-13.00579799078847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716036094a21545%3A0x9af813f09a75851f!2sAv.+Adhemar+de+Barros+-+Ondina%2C+Salvador+-+BA!5e0!3m2!1sen!2sbr!4v1530883126152" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> '
+      },
+
+      {
+        nome: "Instituto Guanabara",
+        end: "Rua Frederico Costa, n 93, Brotas.",
+        tel: "3244-1142",
+        valor: "Gratuito",
+        servico:  [s.f,s.g],
+        descricao_servicos: " Reabilitação, habilitação, educação e tratamento de crianças, adolescentes e adultos portadores de deficiência mental e transtornos nas áreas emocional, psicomotora e neurológica.",
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.8477617282606!2d-38.50219964914424!3d-12.981587290804386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604c6c4346085%3A0xf0f0e745dfd2786e!2sR.+Frederico+Costa%2C+93+-+Engenho+Velho+de+Brotas%2C+Salvador+-+BA%2C+40243-045!5e0!3m2!1sen!2sbr!4v1530883353890" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>  '
+      },
+
+      {
+        nome: "Centro Estadual de Prevenção de Deficiência (SUS)",
+        end: "Av. ACM, s/n, Iguatemi",
+        tel: "3351-2330/ 3270-5601",
+        valor: "Gratuito",
+        servico:  [s.f,s.p],
+        descricao_servicos: "Acompanhamento psicossocial, oficina terapêutica e atendimento psicopedagógico, visando à reabilitação física e neuroevolutiva de pessoas com deficiência.",
+        mapa: ' <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62205.564779135166!2d-38.535121637809524!3d-12.98158492755927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa440c6fe29a3af6e!2sAvenida+Ant%C3%B4nio+Carlos+Magalh%C3%A3es%2C+S%2FN!5e0!3m2!1sen!2sbr!4v1530884342503" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> '
+      },
+
+
+
+
       // Flávia
       {
         nome: "NACPC - Núcleo de Atendimento à Criança com Paralisia Cerebral",
@@ -117,9 +163,6 @@ export class LocalServiceProvider {
         descricao_servicos: "Psicodiagnóstico, psicoterapia individual (todas as faixas etárias) e psicoterapia em grupos, família e casal",
         mapa: ' <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5754021517782!2d-38.39477344949795!3d-12.934988990835148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716174fae89b33b%3A0x163e53b115d615cd!2sFTC+-+Faculdade+de+Tecnologia+e+Ci%C3%AAncias%2C+Campus+Salvador!5e0!3m2!1sen!2sbr!4v1530796580180" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> '
       },
-
-
-
     ]
     return estabelecimentos;
   }
