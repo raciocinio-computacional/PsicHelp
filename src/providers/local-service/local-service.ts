@@ -17,18 +17,18 @@ export class LocalServiceProvider {
   }
 
   obterEstabelecimentos(): any {
-   
+
     // Tipos de serviço psicologia e psiquiatria
     let s = {
-      "i":  "Terapia individual",
-      "g":  "Terapia de Grupo",  
-      "f":  "Terapia Familiar",
-      "c":  "Terapia Conjugal",
-      "p":  "Orientação Profissional",
+      "i": "Terapia individual",
+      "g": "Terapia de Grupo",
+      "f": "Terapia Familiar",
+      "c": "Terapia Conjugal",
+      "p": "Orientação Profissional",
     }
-  
 
-// Tipos de serviço psicologia
+
+    // Tipos de serviço psicologia
 
 
     let estabelecimentos = [
@@ -48,7 +48,7 @@ export class LocalServiceProvider {
         end: "Rua São Francisco, s/n, Monte Serrat",
         tel: "3316-3084",
         valor: "Gratuito",
-        servico: [s.i,s.f],
+        servico: [s.i, s.f],
         descricao_servicos: "Neurologia e acompanhamento psicológico a pacientes com hanseníase e familiares",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.71451969123!2d-38.515134449204204!3d-12.926061062354414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71605620d7cdfb1%3A0xcb2127d46940bdc0!2sHospital+Couto+Maia!5e0!3m2!1spt-BR!2sbr!4v1530881072450" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
       },
@@ -71,7 +71,50 @@ export class LocalServiceProvider {
       },
 
 
-//Ester
+
+      // Thaiane
+
+      {
+        nome: "CREASI - Centro de Referência de Atenção à Saúde do Idoso",
+        end: "Av. Antonio Carlos Magalhães, s/n, Iguatemi",
+        tel: "3270-5741/5758",
+        valor: "Gratuito",
+        servico: [s.i, s.g],
+        descricao_servicos: "Psicoterapia individual e em grupo para idosos, grupos de convivência, atendimento familiar, avaliação cognitiva, atividades educativas e psiquiatria.",
+        mapa: ' <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31101.253897976643!2d-38.511242241618795!3d-12.993793332773462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b3c486d22fb%3A0xcf98d6732a5be127!2sCREASI!5e0!3m2!1spt-BR!2sbr!4v1530883858773" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> '
+      },
+
+      {
+        nome: "Centro de Referência LGBT",
+        end: "Avenida Oceânica, 3.731, Rio Vermelho",
+        tel: "3202-2750",
+        valor: "Gratuito",
+        servico: [s.i],
+        descricao_servicos: "acompanhamento e orientação jurídica, psicológica e social ao público LGBT",
+        mapa: ' <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.3967385491915!2d-38.501651249497044!3d-13.010388590785437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716035b98065213%3A0x5506b9f6469feb22!2sCentro+Municipal+de+Refer%C3%AAncia+LGBT!5e0!3m2!1spt-BR!2sbr!4v1530884873584" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> '
+      },
+
+      {
+        nome: "ABRE - Associação Baiana de Reabilitação e Educação do Excepcional",
+        end: "Rua Raul Leite, 93, Vila Laura, Matatu de Brotas.",
+        tel: "3021-0500",
+        valor: "Gratuito",
+        servico: [s.i],
+        descricao_servicos: "Reabilitação, Habilitação e educação de crianças e adolescentes portadores de deficiência mental, Serviço Social, Neurologia, Fonoaudiologia, Psiquiatria, Psicoterapia e Psicopedagogia.         Pagamento: Gratuito credenciado pelo SUS.", mapa: ' Rua Raul Leite, 93, Vila Laura, Matatu de Brotas.'
+      },
+
+      {
+        nome: "INESPI - Associação de Pais e Amigos de Crianças e Adolescentes com Distúrbios de Comportamento",
+        end: "Rua Alberto Fiúza, no 500, Imbuí.",
+        tel: "3231-1502",
+        valor: "Gratuito",
+        servico: [s.i],
+        descricao_servicos: "Avaliação psicológica, pedagógica e psiquiátrica. Grupos pedagógicos e terapêuticos.",
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.048465646228!2d-38.43822564949772!3d-12.968750590812864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161a50c23e2471%3A0x91aaa4b6ed532a96!2sR.+Alberto+Fi%C3%BAsa%2C+500+-+Imbu%C3%AD%2C+Salvador+-+BA!5e0!3m2!1spt-BR!2sbr!4v1530886579980" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>  '
+      },
+
+
+      //Ester
 
       {
         nome: "IBR - Instituto Baiano de Reabilitação",
@@ -79,7 +122,7 @@ export class LocalServiceProvider {
         tel: "Tel: 3504-5900",
         // E-mail: ibr@fjs.org.br
         valor: "Gratuito",
-        servico: [s.i,s.f],
+        servico: [s.i, s.f],
         descricao_servicos: "Reabilitação e atendimento psicossocial a pessoa com deficiência física",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> '
       },
@@ -89,7 +132,7 @@ export class LocalServiceProvider {
         end: " Av. Ademar de Barros, s/n, Ondina.",
         tel: " 3247-0049/3331-9456",
         valor: "Gratuito",
-        servico:  [s.i,s.f,s.g],
+        servico: [s.i, s.f, s.g],
         descricao_servicos: "Serviços: Educacionais, pedagógicos e psicopedagógicos a pessoas de 6 a 35 anos com necessidades educacionais especiais em deficiência intelectual e TGB - Transtorno Global em Desenvolvimento (autismo). Núcleos de arte-cultura, esporte e lazer, apoio pedagógico e de tecnologia e informação.",
         mapa: ' <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.46869232791!2d-38.511250049144174!3d-13.00579799078847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716036094a21545%3A0x9af813f09a75851f!2sAv.+Adhemar+de+Barros+-+Ondina%2C+Salvador+-+BA!5e0!3m2!1sen!2sbr!4v1530883126152" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> '
       },
@@ -99,7 +142,7 @@ export class LocalServiceProvider {
         end: "Rua Frederico Costa, n 93, Brotas.",
         tel: "3244-1142",
         valor: "Gratuito",
-        servico:  [s.f,s.g],
+        servico: [s.f, s.g],
         descricao_servicos: " Reabilitação, habilitação, educação e tratamento de crianças, adolescentes e adultos portadores de deficiência mental e transtornos nas áreas emocional, psicomotora e neurológica.",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.8477617282606!2d-38.50219964914424!3d-12.981587290804386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604c6c4346085%3A0xf0f0e745dfd2786e!2sR.+Frederico+Costa%2C+93+-+Engenho+Velho+de+Brotas%2C+Salvador+-+BA%2C+40243-045!5e0!3m2!1sen!2sbr!4v1530883353890" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>  '
       },
@@ -109,7 +152,7 @@ export class LocalServiceProvider {
         end: "Av. ACM, s/n, Iguatemi",
         tel: "3351-2330/ 3270-5601",
         valor: "Gratuito",
-        servico:  [s.f,s.p],
+        servico: [s.f, s.p],
         descricao_servicos: "Acompanhamento psicossocial, oficina terapêutica e atendimento psicopedagógico, visando à reabilitação física e neuroevolutiva de pessoas com deficiência.",
         mapa: ' <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62205.564779135166!2d-38.535121637809524!3d-12.98158492755927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa440c6fe29a3af6e!2sAvenida+Ant%C3%B4nio+Carlos+Magalh%C3%A3es%2C+S%2FN!5e0!3m2!1sen!2sbr!4v1530884342503" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> '
       },
@@ -129,13 +172,13 @@ export class LocalServiceProvider {
       },
 
 
-      
+
       {
         nome: "Escola Bahiana de Medicina e Saúde Pública",
         end: "Av. Dom João VI, 275, Brotas",
         tel: "3276-8259/8298",
         valor: "Gratuito",
-        servico:  [s.i, s.g],
+        servico: [s.i, s.g],
         descricao_servicos: "Psicoterapia individual (todas as faixas etárias) e Grupo terapêuticos.",
         mapa: ' <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7056640692804!2d-38.49023994949735!3d-12.990668090798456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604b468305749%3A0x72a5e386090aeb20!2sBAHIANA+-+School+of+Medicine+and+Public+Health!5e0!3m2!1sen!2sbr!4v1530796297375" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> '
       },
@@ -147,19 +190,19 @@ export class LocalServiceProvider {
         end: "Rua Solimões, 181, Saboeiro",
         tel: "3271-8119",
         valor: "Gratuito",
-        servico:  [s.i, s.c, s.f, s.p],
+        servico: [s.i, s.c, s.f, s.p],
         descricao_servicos: "Psicoterapia individual, conjugal, familiar, psicodiagnóstico e orientação profissional",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0610173228656!2d-38.444615349497695!3d-12.967947390813427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161a56347e5f53%3A0x2e23aca9bc3c28e1!2sUnifacs+PA+10!5e0!3m2!1sen!2sbr!4v1530796458956" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
       },
 
 
-// Modelo:
+      // Modelo:
       {
         nome: "FTC - Faculdade de Tecnologia e Ciências",
         end: "Av. Luís Viana Filho, 8812, Paralela",
         tel: "3281-8073",
         valor: "Gratuito",
-        servico:  [s.i],
+        servico: [s.i],
         descricao_servicos: "Psicodiagnóstico, psicoterapia individual (todas as faixas etárias) e psicoterapia em grupos, família e casal",
         mapa: ' <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5754021517782!2d-38.39477344949795!3d-12.934988990835148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716174fae89b33b%3A0x163e53b115d615cd!2sFTC+-+Faculdade+de+Tecnologia+e+Ci%C3%AAncias%2C+Campus+Salvador!5e0!3m2!1sen!2sbr!4v1530796580180" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> '
       },
@@ -176,14 +219,14 @@ export class LocalServiceProvider {
 
     estabelecimentos.forEach(estabelecimento => {
       estabelecimento.servico.forEach(servico => {
-         servico = servico.toLowerCase();         
-         if(servicoDesejado == servico){
+        servico = servico.toLowerCase();
+        if (servicoDesejado == servico) {
           estabelecimentosEncontrados.push(estabelecimento)
-         }
+        }
       });
     });
 
-    return  estabelecimentosEncontrados;
+    return estabelecimentosEncontrados;
 
   }
 
