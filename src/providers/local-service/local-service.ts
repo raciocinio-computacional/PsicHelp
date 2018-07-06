@@ -35,15 +35,15 @@ export class LocalServiceProvider {
 
     let estabelecimentos = [
 
-      // Modelo:
-      {
-        nome: "",
-        end: "",
-        tel: "",
-        valor: "Gratuito",
-        servico: [,],
-        mapa: ''
-      },
+      // // Modelo:
+      // {
+      //   nome: "",
+      //   end: "",
+      //   tel: "",
+      //   valor: "Gratuito",
+      //   servico: [,],
+      //   mapa: ''
+      // },
 
       {
         nome: "Hospital Geral Couto Maia",
@@ -52,7 +52,7 @@ export class LocalServiceProvider {
         valor: "Gratuito",
         servico: [s.i,s.f],
         descricao_servicos: "Neurologia e acompanhamento psicológico a pacientes com hanseníase e familiares",
-        mapa: 'https://goo.gl/maps/cLu8b8JVmuS2'
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.71451969123!2d-38.515134449204204!3d-12.926061062354414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71605620d7cdfb1%3A0xcb2127d46940bdc0!2sHospital+Couto+Maia!5e0!3m2!1spt-BR!2sbr!4v1530881072450" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
       },
 
 
