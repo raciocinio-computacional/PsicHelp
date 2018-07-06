@@ -16,6 +16,8 @@ export class LocalServiceProvider {
     console.log('Hello LocalServiceProvider Provider');
   }
 
+  public estabelicimentoCache: any;
+
   obterEstabelecimentos(): any {
 
     // Tipos de serviço psicologia e psiquiatria

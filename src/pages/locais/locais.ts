@@ -24,11 +24,13 @@ export class LocaisPage {
     console.log(this.locais);
   }
 
-  mostrarDetalhes(estabelecimento: String){
+  mostrarDetalhes(estabelecimento: any){
     this.navCtrl.push(DetalhePage, {
       estabelecimento: estabelecimento
     })
-    console.log(estabelecimento);
+    this.localService.estabelicimentoCache = estabelecimento;
+    
+    // console.log(estabelecimento);
   }
 
 }

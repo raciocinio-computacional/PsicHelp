@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { LocalServiceProvider } from '../../providers/local-service/local-service';
 
 /**
  * Generated class for the DetalhePage page.
@@ -17,12 +18,14 @@ export class DetalhePage {
 
   estabelecimento: any;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
-    this.estabelecimento = this.navParams.get('estabelecimento');
-    // console.log(this.estabelecimento);
+  constructor(public navCtrl: NavController, public navParams: NavParams, public localService: LocalServiceProvider) {
+    // this.estabelecimento = this.navParams.get('estabelecimento');
+    this.estabelecimento =  
+    console.log(this.estabelecimento);
   }
 
   ionViewDidLoad() {
+    this.estabelecimento = this.localService.estabelicimentoCache;
     console.log('ionViewDidLoad DetalhePage');
   }
 
