@@ -19,14 +19,14 @@ export class DetalhePage {
   estabelecimento: any;
 
   constructor(public navCtrl: NavController, public navParams: NavParams, public localService: LocalServiceProvider) {
-    // this.estabelecimento = this.navParams.get('estabelecimento');
+    this.estabelecimento = this.navParams.get('estabelecimento');
     // this.estabelecimento =  
-    this.estabelecimento = this.localService.estabelicimentoCache;
+    // this.estabelecimento = this.localService.estabelicimentoCache;
     console.log(this.estabelecimento);
   }
 
   ionViewDidLoad() {
-    this.estabelecimento = this.localService.estabelicimentoCache;
+    // this.estabelecimento = this.localService.estabelicimentoCache;
     console.log('ionViewDidLoad DetalhePage', this.estabelecimento);
   }
 

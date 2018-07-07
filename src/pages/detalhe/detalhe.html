@@ -14,7 +14,7 @@
 
 
 <ion-content *ngIf="estabelecimento" padding>
-  <h3 align="center">{{estabelecimento.nome}}</h3>  
+  <h6 align="center">{{estabelecimento.nome}}</h6>  
   
   <ion-card>
         <!-- <ion-card-header text-wrap>
@@ -35,9 +35,9 @@
         </div>
 
         <div *ngIf="estabelecimento.descricao_servicos" ion-item text-wrap>
-          <b>Serviços disponíveis:</b>
+          <b>{{estabelecimento.descricao_servicos}}</b>
             <!-- <ion-icon name="md-cash" item-start></ion-icon> -->
-            {{estabelecimento.descricao_servicos}}
+            
           </div>
 
     </ion-card>

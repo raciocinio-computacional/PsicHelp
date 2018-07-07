@@ -28,7 +28,7 @@ export class LocaisPage {
     this.navCtrl.push(DetalhePage, {
       estabelecimento: estabelecimento
     })
-    this.localService.estabelicimentoCache = estabelecimento;
+    // this.localService.estabelicimentoCache = estabelecimento;
     
     // console.log(estabelecimento);
   }
