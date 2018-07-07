@@ -17,20 +17,22 @@
 
   <ion-card *ngFor="let local of locais;">
     <div (click)="mostrarDetalhes(local)">
-      <ion-card-header>
+      <!-- <div (click)="mostrarDetalhes(local)"> -->
+
+      <ion-card-header text-wrap>
         {{local.nome}}
       </ion-card-header>
-      <div *ngIf="local.end" ion-item>
+      <!-- <div *ngIf="local.end" ion-item text-wrap>
         <ion-icon name="md-map" item-start></ion-icon>
         {{local.end}}
       </div>
 
-      <div *ngIf="local.tel" ion-item>
+      <div *ngIf="local.tel" ion-item text-wrap>
         <ion-icon name="md-call" item-start></ion-icon>
         {{local.tel}}
-      </div>
+      </div> -->
 
-      <div *ngIf="local.valor" ion-item>
+      <div *ngIf="local.valor" ion-item text-wrap>
         <ion-icon name="md-cash" item-start></ion-icon>
         {{local.valor}}
       </div>

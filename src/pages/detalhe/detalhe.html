@@ -7,38 +7,42 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Detalhes</ion-title>
+    <ion-title text-wrap>Detalhes</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content *ngIf="estabelecimento" padding>
-
-    <ion-card>
-        <ion-card-header>
-          {{estabelecimento.nome}}
-        </ion-card-header>
-        <div *ngIf="estabelecimento.end" ion-item>
-          <ion-icon name="md-map" item-start></ion-icon>
+  <h3 align="center">{{estabelecimento.nome}}</h3>  
+  
+  <ion-card>
+        <!-- <ion-card-header text-wrap>
+        </ion-card-header> -->
+        <div *ngIf="estabelecimento.end" ion-item text-wrap> 
+          <ion-icon name="pin" item-start></ion-icon>
           {{estabelecimento.end}}
         </div>
   
-        <div *ngIf="estabelecimento.tel" ion-item>
+        <div *ngIf="estabelecimento.tel" ion-item text-wrap>
           <ion-icon name="md-call" item-start></ion-icon>
           {{estabelecimento.tel}}
         </div>
   
-        <div *ngIf="estabelecimento.valor" ion-item>
+        <div *ngIf="estabelecimento.valor" ion-item text-wrap>
           <ion-icon name="md-cash" item-start></ion-icon>
           {{estabelecimento.valor}}
         </div>
 
-        <div *ngIf="estabelecimento.descricao_servicos" ion-item>
-            <ion-icon name="md-cash" item-start></ion-icon>
+        <div *ngIf="estabelecimento.descricao_servicos" ion-item text-wrap>
+          <b>Serviços disponíveis:</b>
+            <!-- <ion-icon name="md-cash" item-start></ion-icon> -->
             {{estabelecimento.descricao_servicos}}
           </div>
 
     </ion-card>
   
+    <div *ngIf="estabelecimento.mapa" [innerHtml]="estabelecimento.mapa | sanitizeHtml">  
+      </div>
+
   </ion-content>
