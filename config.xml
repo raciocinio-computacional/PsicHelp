@@ -4,6 +4,7 @@
     <description>Aplicativo para ajudar pessoas buscando tratamento psicoterapêutico em Salvador</description>
     <author email="evandrojr@gmail.com" href="">Turma de Raciocicínio Computacional 2018</author>
     <content src="index.html" />
+    <preference name="loadUrlTimeoutValue" value="60000" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />

@@ -6,20 +6,12 @@ echo "Lembrou de atualizar a version no config.xml?"
 
 echo "Gerando versão de Release para $APP"
 
-# # Fase de prevenção
-# ../base_download.sh
+ionic cordova build android --prod
 
-# # Fase de preparação
-# ../media_download.sh
-# ./otimizar_imagens.rb
-# ./json_download.sh
-
-ionic cordova build android
-
-# if [ "$(hostname)" == 'negao' ]; then
-#   echo "Primeiro teste no seu celular! $APP"
-#   ionic run android
-# fi
+if [ "$(hostname)" == 'dg' ]; then
+  echo "Primeiro teste no seu celular! $APP"
+  ionic run android
+fi
 
 cordova build --release android
 # cordova plugin add cordova-plugin-console
