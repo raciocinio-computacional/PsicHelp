@@ -5,4 +5,11 @@ import { SanitizeHtmlPipe } from './sanitize-html/sanitize-html';
 	imports: [],
 	exports: [SanitizeHtmlPipe]
 })
-export class PipesModule {}
+export class PipesModule {
+	static forRoot() {
+		return {
+			ngModule: PipesModule,
+			providers: [SanitizeHtmlPipe],
+		};
+	 }
+}

@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { LocalServiceProvider } from '../../providers/local-service/local-service';
+import { SanitizeHtmlPipe } from '../../pipes/sanitize-html/sanitize-html';
+import { PipesModule } from '../../pipes/pipes.module';
 
 /**
  * Generated class for the DetalhePage page.
