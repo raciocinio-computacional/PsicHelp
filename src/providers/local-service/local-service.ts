@@ -42,8 +42,44 @@ export class LocalServiceProvider {
       //   tel: "",
       //   valor: "Gratuito",
       //   servico: [,],
+      //   descricao_servicos: "",
       //   mapa: ''
       // },
+
+
+      {
+        nome: "CAPS AD - Centro de Atenção Psicossocial Álcool e Drogas",
+        end: "Rua Conde Pereira Carneiro, 271, Pernambués",
+        tel: "3238-2847",
+        valor: "Gratuito",
+        servico: [s.i,s.g],
+        descricao_servicos: "Atendimento psiquiátrico e psicoterapia de adultos ou crianças e adolescentes com necessidades decorrentes do uso de crack, álcool e outras drogas, grupos e oficinas. Compreende o território do distrito Cabula Beirú, Boca do Rio, Liberdade e Itapuã.",
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0489063423342!2d-38.466854185177986!3d-12.96872239085781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161ade30870785%3A0x2708ee5624f75575!2sR.+Conde+Pereira+Carneiro%2C+271+-+Pernambu%C3%A9s%2C+Salvador+-+BA%2C+41100-010!5e0!3m2!1spt-BR!2sbr!4v1530940558299" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+      },
+
+
+      {
+        nome: "CETAD - Centro de Estudos e Transtornos do Abuso de Drogas",
+        end: "Av. Pedro Lessa, n 123, Canela.",
+        tel: "3283-7180/ 7181",
+        valor: "Gratuito",
+        servico: [s.i,s.g],
+        descricao_servicos: "Atendimento psicológico individual e em grupo ao usuário de drogas,  oficinas, salas de espera, ponto da cidadania, programa de intensificação de cuidados.",
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.6522207459925!2d-38.525833285177754!3d-12.994081790841182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7160486c4fd4d4b%3A0x9b8b6c3240dc6390!2sR.+Pedro+Lessa%2C+123+-+Canela%2C+Salvador+-+BA%2C+40110-050!5e0!3m2!1spt-BR!2sbr!4v1530940782888" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+      },
+
+
+      {
+        nome: "CATA - Centro de Acolhimento e Tratamento de Alcoolista (Hospital Santo Antônio)",
+        end: "Av. Bomfim, 161, Largo de Roma, Portão 7",
+        tel: "3310-1195/ 3310-1291",
+        valor: "Gratuito",
+        servico: [s.i,s.g],
+        descricao_servicos: "Psicoterapia individual, grupos terapêuticos, grupos informativos, internação, acompanhamento ambulatorial a pessoas com necessidades decorrentes do uso abusivo de álcool.",
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5733980210753!2d-38.509015100706094!3d-12.935117562534588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf3fc696323413476!2sAmbulat%C3%B3rio+Presidente+Jos%C3%A9+Sarney!5e0!3m2!1spt-BR!2sbr!4v1530941046948" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+      },
+
+
 
       {
         nome: "Hospital Geral Couto Maia",
@@ -62,14 +98,8 @@ export class LocalServiceProvider {
         tel: "3206-8015",
         valor: "Gratuito",
         servico: [s.i, s.g],
+        descricao_servicos: "Psicoterapia individual a todas as faixas etárias, Psicodiagnóstico, Avaliação Psiconeurológica, Orientação Profissional e Grupos terapêuticos.",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5362927581573!2d-38.41222634920404!3d-12.937497762586544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71610af309d2219%3A0xbc365de20840c79e!2sAv.+Lu%C3%ADs+Viana%2C+6775+-+S%C3%A3o+Marcos%2C+Salvador+-+BA!5e0!3m2!1spt-BR!2sbr!4v1530877497475" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
-      },
-      {
-        nome: "Faculdade da Cidade do Salvador (FACS)",
-        end: "Av. Estados Unidos, 37, 3° andar, Comércio",
-        tel: "3254-6916/6943",
-        valor: "Gratuito",
-        servico: [s.i, s.g]
       },
 
 
