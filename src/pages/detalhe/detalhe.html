@@ -31,7 +31,7 @@
 
     <div *ngIf="estabelecimento.tel" ion-item text-wrap>
       <ion-icon name="md-call" item-start></ion-icon>
-      {{estabelecimento.tel}}
+      <a href="tel:{{estabelecimento.tel}}">{{estabelecimento.tel}}</a>
     </div>
 
     <div *ngIf="estabelecimento.valor" ion-item text-wrap>
