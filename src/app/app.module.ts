@@ -7,11 +7,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { LocalServiceProvider } from '../providers/local-service/local-service';
-// import { LocaisPage } from '../pages/locais/locais';
-// import { DetalhePage } from '../pages/detalhe/detalhe';
-import { SanitizeHtmlPipe } from '../pipes/sanitize-html/sanitize-html';
 import { LocaisPageModule } from '../pages/locais/locais.module';
-// import { PipesModule } from '../pipes/pipes.module';
 import { DetalhePageModule } from '../pages/detalhe/detalhe.module';
 import { PipesModule } from '../pipes/pipes.module';
 
@@ -19,7 +15,6 @@ import { PipesModule } from '../pipes/pipes.module';
   declarations: [
     MyApp,
     HomePage,
-    // SanitizeHtmlPipe
   ],
   imports: [
     LocaisPageModule,
@@ -32,8 +27,6 @@ import { PipesModule } from '../pipes/pipes.module';
   entryComponents: [
     MyApp,
     HomePage,
-    // LocaisPage,
-    // DetalhePage,
   ],
   exports: [],
   providers: [

@@ -1,13 +1,5 @@
-import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
-
-/*
-  Generated class for the LocalServiceProvider provider.
-
-  See https://angular.io/guide/dependency-injection for more info on providers
-  and Angular DI.
-*/
 @Injectable()
 export class LocalServiceProvider {
 
@@ -27,11 +19,8 @@ export class LocalServiceProvider {
       "c": "Terapia Conjugal",
       "p": "Orientação Profissional",
     }
-
-
+    
     // Tipos de serviço psicologia
-
-
     let estabelecimentos = [
 
       // // Modelo:
@@ -45,7 +34,6 @@ export class LocalServiceProvider {
       //   mapa: ''
       // },
 
-
       {
         nome: "CAPS AD - Centro de Atenção Psicossocial Álcool e Drogas",
         end: "Rua Conde Pereira Carneiro, 271, Pernambués",
@@ -55,8 +43,6 @@ export class LocalServiceProvider {
         descricao_servicos: "Atendimento psiquiátrico e psicoterapia de adultos ou crianças e adolescentes com necessidades decorrentes do uso de crack, álcool e outras drogas, grupos e oficinas. Compreende o território do distrito Cabula Beirú, Boca do Rio, Liberdade e Itapuã.",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0489063423342!2d-38.466854185177986!3d-12.96872239085781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161ade30870785%3A0x2708ee5624f75575!2sR.+Conde+Pereira+Carneiro%2C+271+-+Pernambu%C3%A9s%2C+Salvador+-+BA%2C+41100-010!5e0!3m2!1spt-BR!2sbr!4v1530940558299" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
       },
-
-
       {
         nome: "CETAD - Centro de Estudos e Transtornos do Abuso de Drogas",
         end: "Av. Pedro Lessa, n 123, Canela.",
@@ -66,8 +52,6 @@ export class LocalServiceProvider {
         descricao_servicos: "Atendimento psicológico individual e em grupo ao usuário de drogas,  oficinas, salas de espera, ponto da cidadania, programa de intensificação de cuidados.",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.6522207459925!2d-38.525833285177754!3d-12.994081790841182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7160486c4fd4d4b%3A0x9b8b6c3240dc6390!2sR.+Pedro+Lessa%2C+123+-+Canela%2C+Salvador+-+BA%2C+40110-050!5e0!3m2!1spt-BR!2sbr!4v1530940782888" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
       },
-
-
       {
         nome: "CATA - Centro de Acolhimento e Tratamento de Alcoolista (Hospital Santo Antônio)",
         end: "Av. Bomfim, 161, Largo de Roma, Portão 7",
@@ -77,9 +61,6 @@ export class LocalServiceProvider {
         descricao_servicos: "Psicoterapia individual, grupos terapêuticos, grupos informativos, internação, acompanhamento ambulatorial a pessoas com necessidades decorrentes do uso abusivo de álcool.",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5733980210753!2d-38.509015100706094!3d-12.935117562534588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf3fc696323413476!2sAmbulat%C3%B3rio+Presidente+Jos%C3%A9+Sarney!5e0!3m2!1spt-BR!2sbr!4v1530941046948" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
       },
-
-
-
       {
         nome: "Hospital Geral Couto Maia",
         end: "Rua São Francisco, s/n, Monte Serrat",
@@ -89,8 +70,6 @@ export class LocalServiceProvider {
         descricao_servicos: "Neurologia e acompanhamento psicológico a pacientes com hanseníase e familiares",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.71451969123!2d-38.515134449204204!3d-12.926061062354414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71605620d7cdfb1%3A0xcb2127d46940bdc0!2sHospital+Couto+Maia!5e0!3m2!1spt-BR!2sbr!4v1530881072450" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
       },
-
-
       {
         nome: "Instituto de Saúde da Faculdade Unijorge",
         end: "Av. Luís Viana Filho, 6775, Paralela",
@@ -100,11 +79,7 @@ export class LocalServiceProvider {
         descricao_servicos: "Psicoterapia individual a todas as faixas etárias, Psicodiagnóstico, Avaliação Psiconeurológica, Orientação Profissional e Grupos terapêuticos.",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5362927581573!2d-38.41222634920404!3d-12.937497762586544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71610af309d2219%3A0xbc365de20840c79e!2sAv.+Lu%C3%ADs+Viana%2C+6775+-+S%C3%A3o+Marcos%2C+Salvador+-+BA!5e0!3m2!1spt-BR!2sbr!4v1530877497475" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
       },
-
-
-
       // Thaiane
-
       {
         nome: "CREASI - Centro de Referência de Atenção à Saúde do Idoso",
         end: "Av. Antonio Carlos Magalhães, s/n, Iguatemi",
@@ -114,7 +89,6 @@ export class LocalServiceProvider {
         descricao_servicos: "Psicoterapia individual e em grupo para idosos, grupos de convivência, atendimento familiar, avaliação cognitiva, atividades educativas e psiquiatria.",
         mapa: ' <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31101.253897976643!2d-38.511242241618795!3d-12.993793332773462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b3c486d22fb%3A0xcf98d6732a5be127!2sCREASI!5e0!3m2!1spt-BR!2sbr!4v1530883858773" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> '
       },
-
       {
         nome: "Centro de Referência LGBT",
         end: "Avenida Oceânica, 3.731, Rio Vermelho",
@@ -124,7 +98,6 @@ export class LocalServiceProvider {
         descricao_servicos: "acompanhamento e orientação jurídica, psicológica e social ao público LGBT",
         mapa: ' <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.3967385491915!2d-38.501651249497044!3d-13.010388590785437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716035b98065213%3A0x5506b9f6469feb22!2sCentro+Municipal+de+Refer%C3%AAncia+LGBT!5e0!3m2!1spt-BR!2sbr!4v1530884873584" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> '
       },
-
       {
         nome: "ABRE - Associação Baiana de Reabilitação e Educação do Excepcional",
         end: "Rua Raul Leite, 93, Vila Laura, Matatu de Brotas.",
@@ -134,7 +107,6 @@ export class LocalServiceProvider {
         descricao_servicos: "Reabilitação, Habilitação e educação de crianças e adolescentes portadores de deficiência mental, Serviço Social, Neurologia, Fonoaudiologia, Psiquiatria, Psicoterapia e Psicopedagogia.",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.880474847214!2d-38.50227635092514!3d-12.979495863436535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604c6c824a1e5%3A0x335b8019a4187f47!2sAssocia%C3%A7%C3%A3o+Baiana+de+Recupera%C3%A7%C3%A3o+do+Excepcional!5e0!3m2!1spt-BR!2sbr!4v1531040998635" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
       },
-
       {
         nome: "INESPI - Associação de Pais e Amigos de Crianças e Adolescentes com Distúrbios de Comportamento",
         end: "Rua Alberto Fiúza, no 500, Imbuí.",
@@ -144,10 +116,7 @@ export class LocalServiceProvider {
         descricao_servicos: "Avaliação psicológica, pedagógica e psiquiátrica. Grupos pedagógicos e terapêuticos.",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.048465646228!2d-38.43822564949772!3d-12.968750590812864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161a50c23e2471%3A0x91aaa4b6ed532a96!2sR.+Alberto+Fi%C3%BAsa%2C+500+-+Imbu%C3%AD%2C+Salvador+-+BA!5e0!3m2!1spt-BR!2sbr!4v1530886579980" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>  '
       },
-
-
       //Ester
-
       {
         nome: "IBR - Instituto Baiano de Reabilitação",
         end: " Av. Presidente Vargas, no 2947, Ondina.",
@@ -189,9 +158,6 @@ export class LocalServiceProvider {
         mapa: ' <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62205.564779135166!2d-38.535121637809524!3d-12.98158492755927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa440c6fe29a3af6e!2sAvenida+Ant%C3%B4nio+Carlos+Magalh%C3%A3es%2C+S%2FN!5e0!3m2!1sen!2sbr!4v1530884342503" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> '
       },
 
-
-
-
       // Flávia
       {
         nome: "NACPC - Núcleo de Atendimento à Criança com Paralisia Cerebral",
@@ -202,8 +168,6 @@ export class LocalServiceProvider {
         descricao_servicos: "Acompanhamento psicológico a crianças com paralisia cerebral e seus familiares.",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.450451539659!2d-38.50325274949709!3d-13.006961890787682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716035ec9190fe9%3A0x44bbe300230168ba!2sNACPC!5e0!3m2!1sen!2sbr!4v1530795898069" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
       },
-
-
 
       {
         nome: "Escola Bahiana de Medicina e Saúde Pública",
