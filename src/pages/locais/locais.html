@@ -7,12 +7,12 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Locais</ion-title>
+    <ion-title class="titulo">Locais</ion-title>
   </ion-navbar>
 
 </ion-header>
 
-<ion-content padding>
+<ion-content padding class="conteudo">
 
   <ion-card *ngFor="let local of locais;" color="secondary">
     <div (click)="mostrarDetalhes(local)">
@@ -25,7 +25,7 @@
         <ion-icon name="md-cash" item-start></ion-icon>
         {{local.valor}}
       </div>
-        
+
     </div>
   </ion-card>
 

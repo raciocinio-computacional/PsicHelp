@@ -7,13 +7,13 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title text-wrap>Detalhes</ion-title>
+    <ion-title text-wrap class="titulo">{{estabelecimento.nome}}</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content *ngIf="estabelecimento" padding>
+<ion-content *ngIf="estabelecimento" class="conteudo" padding>
 
   <ion-list>
     <ion-item color="primary" text-wrap>
