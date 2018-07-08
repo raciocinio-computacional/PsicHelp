@@ -16,28 +16,36 @@
 
   <ion-card>
 
-    <ion-item *ngIf="estabelecimento.nome" text-wrap>
-      {{estabelecimento.nome}}
+    <ion-item bg-secondary *ngIf="estabelecimento.nome" text-wrap>
+      <span light>{{estabelecimento.nome}}</span>
     </ion-item>
 
-    <ion-item *ngIf="estabelecimento.end" text-wrap>
-      <ion-icon name="pin" item-start></ion-icon>
-      {{estabelecimento.end}}
+    <ion-item bg-secondary *ngIf="estabelecimento.end" text-wrap>
+      <span light>
+        <ion-icon name="pin" item-start></ion-icon>
+        {{estabelecimento.end}}
+      </span>
     </ion-item>
 
-    <ion-item *ngIf="estabelecimento.tel" text-wrap>
-      <ion-icon name="md-call" item-start></ion-icon>
-      <a href="tel:{{estabelecimento.tel}}">{{estabelecimento.tel}}</a>
+    <ion-item bg-secondary *ngIf="estabelecimento.tel" text-wrap>
+      <span light>
+        <ion-icon name="md-call" item-start></ion-icon>
+        <a light href="tel:{{estabelecimento.tel}}">{{estabelecimento.tel}}</a>
+      </span>
     </ion-item>
 
-    <ion-item *ngIf="estabelecimento.valor" text-wrap>
-      <ion-icon name="md-cash" item-start></ion-icon>
-      {{estabelecimento.valor}}
+    <ion-item bg-secondary *ngIf="estabelecimento.valor" text-wrap>
+      <span light>
+        <ion-icon name="md-cash" item-start></ion-icon>
+        {{estabelecimento.valor}}
+      </span>
     </ion-item>
 
-    <div *ngIf="estabelecimento.descricao_servicos" ion-item text-wrap color="secondary">
-      {{estabelecimento.descricao_servicos}}
-    </div>
+    <ion-item light *ngIf="estabelecimento.descricao_servicos" text-wrap bg-secondary>
+      <span light>
+        {{estabelecimento.descricao_servicos}}
+      </span>
+    </ion-item>
 
   </ion-card>
 

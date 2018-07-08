@@ -12,9 +12,10 @@ else
 fi
 
 echo "Gerando versão de Release para $APP"
-
-ionic cordova build android --prod
-echo "Apague a versão antiga e teste primeiro teste no seu celular!!!!!!!!!!!!!!!!!!"
+rm $APP.apk
+ionic cordova build android --prod --release
+echo "Apague a versão antiga e teste primeiro teste no seu celular e dê enter!"
+read answer
 adb install $APP.apk
 echo "Testou e funcinou?!"
 read answer 

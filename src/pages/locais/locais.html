@@ -10,7 +10,7 @@
 
   <ion-list>
     <button ion-item *ngFor="let local of locais;" color="secondary" (click)="mostrarDetalhes(local)" text-wrap>
-      {{local.nome}} - {{local.valor}}
+      {{local.nome}} - <b light>{{local.valor}}</b>
     </button>
   </ion-list>
 

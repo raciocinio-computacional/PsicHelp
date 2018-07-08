@@ -20,7 +20,36 @@
 .toolbar-title.toolbar-title-wp { color: #fff }
 
 a{
-    color:color($colors, secondary);
+    color: #fff;
+}
+
+[primary]{
+    color: color($colors, primary);
+}
+
+[bg-primary]{
+    background-color: color($colors, primary);
+}
+
+[secondary]{
+    color: color($colors, secondary);
+}
+
+[bg-secondary]{
+    background-color: color($colors, secondary);
+}
+
+[light]{
+    color: color($colors, light);
+}
+
+[bg-light]{
+    background-color: color($colors, light);
+}
+
+
+[light]{
+    color: color($colors, light);
 }
 
 // .toolbar-background-wp{ color: #32db64}
