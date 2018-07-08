@@ -1,6 +1,6 @@
 {
-  "name": "Ionic",
-  "short_name": "Ionic",
+  "name": "PsicHelp - Locais de Atendimento GRATUITO em Saúde Mental em Salvador",
+  "short_name": "PsicHelp",
   "start_url": "index.html",
   "display": "standalone",
   "icons": [{
