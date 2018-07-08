@@ -19,6 +19,10 @@
 .toolbar-title.toolbar-title-ios,
 .toolbar-title.toolbar-title-wp { color: #fff }
 
+a{
+    color:color($colors, secondary);
+}
+
 // .toolbar-background-wp{ color: #32db64}
 
 // Bottom tabs
