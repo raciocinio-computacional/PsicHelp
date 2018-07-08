@@ -12,45 +12,38 @@
 
 </ion-header>
 
-
 <ion-content *ngIf="estabelecimento" class="conteudo" padding>
 
-  <!-- <ion-list>
-    <ion-item color="primary" text-wrap>
+  <ion-card>
+
+    <ion-item *ngIf="estabelecimento.nome" text-wrap>
       {{estabelecimento.nome}}
     </ion-item>
-  </ion-list> -->
 
-  <ion-card>
-  
-      <ion-item *ngIf="estabelecimento.nome"  text-wrap >
-          <!-- <ion-icon name="pin" item-start></ion-icon> -->
-          {{estabelecimento.nome}}
-        </ion-item>
-    
-
-    <ion-item *ngIf="estabelecimento.end"  text-wrap >
+    <ion-item *ngIf="estabelecimento.end" text-wrap>
       <ion-icon name="pin" item-start></ion-icon>
       {{estabelecimento.end}}
-    </ion-item>>
+    </ion-item>
 
     <ion-item *ngIf="estabelecimento.tel" text-wrap>
       <ion-icon name="md-call" item-start></ion-icon>
       <a href="tel:{{estabelecimento.tel}}">{{estabelecimento.tel}}</a>
     </ion-item>
 
-    <ion-item *ngIf="estabelecimento.valor"  text-wrap>
+    <ion-item *ngIf="estabelecimento.valor" text-wrap>
       <ion-icon name="md-cash" item-start></ion-icon>
       {{estabelecimento.valor}}
     </ion-item>
 
     <div *ngIf="estabelecimento.descricao_servicos" ion-item text-wrap color="secondary">
       {{estabelecimento.descricao_servicos}}
-
     </div>
+
   </ion-card>
 
-  <div  *ngIf="estabelecimento.mapa" [innerHtml]="estabelecimento.mapa | sanitizeHtml">
-  </div>
+  <ion-card>
+    <div *ngIf="estabelecimento.mapa" [innerHtml]="estabelecimento.mapa | sanitizeHtml">
+    </div>
+  </ion-card>
 
 </ion-content>
