@@ -34,3 +34,18 @@ export class LocaisPage {
   }
 
 }
+Button <
+android : layout _width = " wrap_content "
+android : layout _height = wrap_content "
+android: text = " Detalhe  do  prestador "
+android: id = " @ id / detalhedoprestador "
+android: layout_below = " @ id / textView "
+android: layout_centerHorizontal = " true "
+android: layout_marginTop = " 58dp " />
+Botão botao detalhedoprestador = (Botão) findViewById (R.id.botao detalhedoprestador);
+botao detalhedoprestador.setOnClickListener (new View.OnClickListener () {
+@Sobrepor
+public void onClick (Ver v) {
+setContentView;
+}
+});
