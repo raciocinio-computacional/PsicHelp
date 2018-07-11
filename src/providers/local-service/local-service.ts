@@ -18,6 +18,8 @@ export class LocalServiceProvider {
       "f": "Terapia Familiar",
       "c": "Terapia Conjugal",
       "p": "Orientação Profissional",
+      "l": "LGBT",
+      "d": "Drogas"
     }
     
     // Tipos de serviço psicologia
@@ -39,7 +41,7 @@ export class LocalServiceProvider {
         end: "Rua Conde Pereira Carneiro, 271, Pernambués",
         tel: "3238-2847",
         valor: "Gratuito",
-        servico: [s.i,s.g],
+        servico: [s.i,s.g,s.d],
         descricao_servicos: "Atendimento psiquiátrico e psicoterapia de adultos ou crianças e adolescentes com necessidades decorrentes do uso de crack, álcool e outras drogas, grupos e oficinas. Compreende o território do distrito Cabula Beirú, Boca do Rio, Liberdade e Itapuã.",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0489063423342!2d-38.466854185177986!3d-12.96872239085781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161ade30870785%3A0x2708ee5624f75575!2sR.+Conde+Pereira+Carneiro%2C+271+-+Pernambu%C3%A9s%2C+Salvador+-+BA%2C+41100-010!5e0!3m2!1spt-BR!2sbr!4v1530940558299" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
       },
@@ -48,7 +50,7 @@ export class LocalServiceProvider {
         end: "Av. Pedro Lessa, n 123, Canela.",
         tel: "3283-7180/ 7181",
         valor: "Gratuito",
-        servico: [s.i,s.g],
+        servico: [s.i,s.g,s.d],
         descricao_servicos: "Atendimento psicológico individual e em grupo ao usuário de drogas,  oficinas, salas de espera, ponto da cidadania, programa de intensificação de cuidados.",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.6522207459925!2d-38.525833285177754!3d-12.994081790841182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7160486c4fd4d4b%3A0x9b8b6c3240dc6390!2sR.+Pedro+Lessa%2C+123+-+Canela%2C+Salvador+-+BA%2C+40110-050!5e0!3m2!1spt-BR!2sbr!4v1530940782888" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
       },
@@ -57,7 +59,7 @@ export class LocalServiceProvider {
         end: "Av. Bomfim, 161, Largo de Roma, Portão 7",
         tel: "3310-1195/ 3310-1291",
         valor: "Gratuito",
-        servico: [s.i,s.g],
+        servico: [s.i,s.g,s.d],
         descricao_servicos: "Psicoterapia individual, grupos terapêuticos, grupos informativos, internação, acompanhamento ambulatorial a pessoas com necessidades decorrentes do uso abusivo de álcool.",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5733980210753!2d-38.509015100706094!3d-12.935117562534588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf3fc696323413476!2sAmbulat%C3%B3rio+Presidente+Jos%C3%A9+Sarney!5e0!3m2!1spt-BR!2sbr!4v1530941046948" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
       },
@@ -94,7 +96,7 @@ export class LocalServiceProvider {
         end: "Avenida Oceânica, 3.731, Rio Vermelho",
         tel: "3202-2750",
         valor: "Gratuito",
-        servico: [s.i],
+        servico: [s.i, s.l],
         descricao_servicos: "acompanhamento e orientação jurídica, psicológica e social ao público LGBT",
         mapa: ' <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.3967385491915!2d-38.501651249497044!3d-13.010388590785437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716035b98065213%3A0x5506b9f6469feb22!2sCentro+Municipal+de+Refer%C3%AAncia+LGBT!5e0!3m2!1spt-BR!2sbr!4v1530884873584" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> '
       },
@@ -216,7 +218,7 @@ export class LocalServiceProvider {
         end: "Rua Theodomiro Batista, 422, Rio Vermelho",
         tel: "3205-1745",
         valor: "Gratuito",
-        servico: [s.i, s.p],
+        servico: [s.i, s.p  , s.l],
         descricao_servicos: "Orientação profissional, psicoterapia individual e familiar (todas as faixas etárias), diagnóstico e reabilitação cognitiva.Atendimento psicológico com enfoque em gênero(núcleo de Direitos Humanos e LGBT).",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1943.7040583534754!2d-38.48220960800574!3d-13.009662778361196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161cabb1e48e97%3A0x2980e20c7b0b64ea!2sRua+Theodomiro+Baptista%2C+422+-+Rio+Vermelho%2C+BA%2C+41940-320!5e0!3m2!1spt-BR!2sbr!4v1530884106686" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
       },
