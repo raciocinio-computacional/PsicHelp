@@ -25,7 +25,7 @@ export class LocalServiceProvider {
     // Tipos de serviço psicologia
     let estabelecimentos = [
 
-      // // Modelo:
+      // Modelo:
       // {
       //   nome: "",
       //   end: "",
@@ -288,6 +288,15 @@ export class LocalServiceProvider {
         servico: [s.i, s.g],
         descricao_servicos: "psicoterapia individual e em grupo com todas as faixas etárias",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.318776205092!2d-38.46079249843412!3d-12.951442199999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71612308d8d0ea7%3A0xdddaf66ca849c879!2sUniversidade+do+Estado+da+Bahia!5e0!3m2!1spt-BR!2sbr!4v1530883300079" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+      },
+      {
+        nome: "COFAM - Centro de  Orientação Familiar.",
+        end: "Av.  Joana  Angélica,  n°124,  Nazaré  (Próximo  ao  colégio  central  e  curso opção).",
+        tel: "3242-5959",
+        valor: "Acordado  entre  terapeuta  e  atendido  de  acordo  com  condição socioeconômica  do  mesmo",
+	      servico: [s.i,s.g,s.f],
+        descricao_servicos: "Psicoterapia  de  família,  casal,  adolescente,  individual e  em  grupo.",
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.861241087727!2d-38.51263624930484!3d-12.980725563465388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604eb76dc1d9b%3A0x8d29f926c01e5948!2sAv.+Joana+Ang%C3%A9lica%2C+124+-+Nazar%C3%A9%2C+Salvador+-+BA%2C+40050-003!5e0!3m2!1spt-BR!2sbr!4v1531318273919" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
       },
     ]
     return estabelecimentos;
