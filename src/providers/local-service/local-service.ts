@@ -198,7 +198,7 @@ export class LocalServiceProvider {
         valor: "Gratuito",
         servico: [s.i],
         descricao_servicos: "Psicodiagnóstico, psicoterapia individual (todas as faixas etárias) e psicoterapia em grupos, família e casal",
-        mapa: ' <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5754021517782!2d-38.39477344949795!3d-12.934988990835148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716174fae89b33b%3A0x163e53b115d615cd!2sFTC+-+Faculdade+de+Tecnologia+e+Ci%C3%AAncias%2C+Campus+Salvador!5e0!3m2!1sen!2sbr!4v1530796580180" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> '
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5754021517782!2d-38.39477344949795!3d-12.934988990835148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716174fae89b33b%3A0x163e53b115d615cd!2sFTC+-+Faculdade+de+Tecnologia+e+Ci%C3%AAncias%2C+Campus+Salvador!5e0!3m2!1sen!2sbr!4v1530796580180" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
       },
 
       //Naiara
@@ -207,7 +207,7 @@ export class LocalServiceProvider {
         nome: "UFBA - Universidade Federal da Bahia",
         end: "Rua Professor Aristides Novais, 197, Federação (São Lázaro)",
         tel: "3235-4589",
-        valor: "Gratuito ou Preco Negociado",
+        valor: "Gratuito ou Preço Negociado",
         servico: [s.i, s.p],
         descricao_servicos: "Atendimento psicológico individual (adolescente, adulto psicodiagnóstico e orientação profissional e idoso)",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.54935361837!2d-38.513638949529465!3d-13.000649963871066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716049de15a3b17%3A0xe744f5fde0253b33!2sR.+Prof.+Arist%C3%ADdes+Novis%2C+197+-+Federa%C3%A7%C3%A3o%2C+Salvador+-+BA%2C+40210-630!5e0!3m2!1spt-BR!2sbr!4v1530883874947" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
@@ -302,7 +302,7 @@ export class LocalServiceProvider {
         nome: "Centro de  Estudos  de  Família  e  Casal",
         end: "Parque  Lucaia,  n  281,  Edf.  WM,  Sala  404,  Horto  Florestal.",
         tel: "3022-3149",
-        valor: "Triagem  gratuita,  valor  do  atendimento  em  grupo  e  familiar  acordado  de acordo  com  a  condição  socioeconômica  dos  atendidos  (entre  5,00  e  50,00  reais), psicoterapia  individual a  partir de  50  reais.",
+        valor: "Triagem  gratuita. Valor  do  atendimento  gratuito ou negociado.",
         servico: [s.i,s.g],
         descricao_servicos: "Psicoterapia  individual, de  família  e  casal.",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.461910601058!2d-38.49029245753272!3d-13.00623072811388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71603560859f611%3A0xd6b7ca8e618b7557!2sR.+Lucaia%2C+281+-+Rio+Vermelho%2C+Salvador+-+BA%2C+41940-660!5e0!3m2!1spt-BR!2sbr!4v1531318996417" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
