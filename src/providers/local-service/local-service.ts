@@ -298,6 +298,16 @@ export class LocalServiceProvider {
         descricao_servicos: "Psicoterapia  de  família,  casal,  adolescente,  individual e  em  grupo.",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.861241087727!2d-38.51263624930484!3d-12.980725563465388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604eb76dc1d9b%3A0x8d29f926c01e5948!2sAv.+Joana+Ang%C3%A9lica%2C+124+-+Nazar%C3%A9%2C+Salvador+-+BA%2C+40050-003!5e0!3m2!1spt-BR!2sbr!4v1531318273919" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
       },
+      {
+        nome: "Centro de  Estudos  de  Família  e  Casal",
+        end: "Parque  Lucaia,  n  281,  Edf.  WM,  Sala  404,  Horto  Florestal.",
+        tel: "3022-3149",
+        valor: "Triagem  gratuita,  valor  do  atendimento  em  grupo  e  familiar  acordado  de acordo  com  a  condição  socioeconômica  dos  atendidos  (entre  5,00  e  50,00  reais), psicoterapia  individual a  partir de  50  reais.",
+        servico: [s.i,s.g],
+        descricao_servicos: "Psicoterapia  individual, de  família  e  casal.",
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.461910601058!2d-38.49029245753272!3d-13.00623072811388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71603560859f611%3A0xd6b7ca8e618b7557!2sR.+Lucaia%2C+281+-+Rio+Vermelho%2C+Salvador+-+BA%2C+41940-660!5e0!3m2!1spt-BR!2sbr!4v1531318996417" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+      },
+
     ]
     return estabelecimentos;
   }
