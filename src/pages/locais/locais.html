@@ -1,43 +1,19 @@
 <ion-header>
-
   <ion-navbar>
     <ion-title class="titulo">Locais</ion-title>
   </ion-navbar>
-
 </ion-header>
-
 <ion-content padding class="conteudo">
-
-
   <ion-list>
-
-
     <div *ngFor="let local of locais;">
-
-
-      <ion-card *ngIf="local.video">
-        <div [innerHtml]="local.video | sanitizeHtml">
+      <ion-card  *ngIf="local.video">
+        <div iframe-block-center [innerHtml]="local.video | sanitizeHtml">
         </div>
       </ion-card>
-
       <button *ngIf="local.nome" ion-item color="secondary" (click)="mostrarDetalhes(local)" text-wrap>
-
-
-
         {{local.nome}} -
         <b light>{{local.valor}}</b>
-
-
-
       </button>
-
-
-
     </div>
-
-
-
-
   </ion-list>
-
 </ion-content>

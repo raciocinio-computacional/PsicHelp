@@ -42,15 +42,22 @@
     </ion-item>
 
     <ion-item light *ngIf="estabelecimento.descricao_servicos" text-wrap bg-secondary>
+      <span primary>Serviço:</span>
       <span light>
         {{estabelecimento.descricao_servicos}}
       </span>
     </ion-item>
 
+    <ion-item light *ngIf="estabelecimento.bairros_atendidos" text-wrap bg-secondary>
+      <span primary>Bairros de Abrangência:</span>
+      <span light>
+        {{estabelecimento.bairros_atendidos}}
+      </span>
+    </ion-item>
   </ion-card>
 
   <ion-card>
-    <div *ngIf="estabelecimento.mapa" [innerHtml]="estabelecimento.mapa | sanitizeHtml">
+    <div iframe-block-center *ngIf="estabelecimento.mapa" [innerHtml]="estabelecimento.mapa | sanitizeHtml">
     </div>
   </ion-card>
 
