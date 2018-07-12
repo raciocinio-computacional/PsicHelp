@@ -357,7 +357,7 @@ export class LocalServiceProvider {
       {
         nome: "CAPS II Aristides Novis",
         end: "R. Almirante Alves Camara S/N, Engenho Velho de Brotas. Prox. Secret.Educação do Município",
-        tel: "3611-2956/3611-2953",
+        tel: "3611-2956 / 3611-2953",
         valor: "Gratuito",
         servico: [s.caps],
         descricao_servicos: "08hrs às 17hrs",
@@ -409,7 +409,7 @@ export class LocalServiceProvider {
       {
         nome: "CAPS AD Gregório de Matos ",
         end: "Faculdade de Medicina da UFBA - Pavilhão Carneiro de Campos - Terreiro de Jesus",
-        tel: "3283-5547 / 3322-0235/0304 ",
+        tel: "3283-5547 / 3322-0235/ 3322-0304 ",
         valor: "Gratuito",
         servico: [s.caps, s.d],
         descricao_servicos: "Focam no atendimento a pessoas que utilizam o álcool de maneira prejudicial e outras drogas",
@@ -449,7 +449,7 @@ export class LocalServiceProvider {
       },
       {
         nome: "Caps AD III Gey Espinheira",
-        end: "Estrada Velha de Campinas, No61, Pirajá",
+        end: "Estrada Velha de Campinas, n61, Pirajá",
         tel: "3239-1178",
         valor: "Gratuito",
         servico: [s.caps, s.d],
@@ -475,17 +475,17 @@ export class LocalServiceProvider {
         tel: "3611-4140",
         valor: "Gratuito",
         servico:  [s.caps],
-        descricao_servicos: "",
+        descricao_servicos: "3611-4140",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.2817449301624!2d-38.48548530080978!3d-12.95381471183436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161acb570189e1%3A0xe6cec0288de4755c!2sSpace+Healing!5e0!3m2!1sen!2sbr!4v1531316906445" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>  ',
         bairros_atendidos: "Baixa de Quintas, Bairro Guarani, Baixa dos Frades, IAPI, Barros Reis, Caixa D’Água, Cidade Nova, Curuzú, Estrada da Rainha, Freitas Henrique, IAPI, Japão, Jardim Eldorado, Jardim Joana D’Arc, Jardim Vera Cruz, Lapinha, Liberdade, Nova Divinéia, Pau Miúdo, Pero Vaz, Queimadinho, Rocinha do IAPI, Santa Mônica, Sertanejo, Sieiro."
       },
       {
         nome: "CAPS IA Liberdade",
         end: "R. Conde de Porto Alegre 11, IAPI. Prox. Ao Hospital Mário Leal.",
-        tel: "",
+        tel: "3611-9011",
         valor: "Gratuito",
         servico:  [s.caps],
-        descricao_servicos: "",
+        descricao_servicos: "3611-9011",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.2183297441557!2d-38.49022514949762!3d-12.957876590820021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716053276469845%3A0xd7122a7ad270df35!2sHospital+Especializado+Mario+Leal!5e0!3m2!1sen!2sbr!4v1531317201945" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>  ',
         bairros_atendidos: "BARRA, RIO VERMELHO,BROTAS, CABULA,BEIRU, CENTRO HISTÓRICO, ITAPAGIPE, LIBERDADE, SÃO CAETANO, VALÉRIA, SUBÚRBIO FERROVIÁRIO"
       },
@@ -494,7 +494,7 @@ export class LocalServiceProvider {
       {
         nome: "CAPS II Maria Celia da Rocha",
         end: "Sub. Ferroviário Rua José Pires Castelo Branco, n 30 Praia Grande. CEP 40720-720",
-        tel: "sem telefone",
+        tel: "3397-2689",
         valor: "Gratuito",
         servico: [s.caps],
         descricao_servicos: "08hrs às 17hrs",
