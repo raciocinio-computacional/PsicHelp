@@ -8,10 +8,36 @@
 
 <ion-content padding class="conteudo">
 
+
   <ion-list>
-    <button ion-item *ngFor="let local of locais;" color="secondary" (click)="mostrarDetalhes(local)" text-wrap>
-      {{local.nome}} - <b light>{{local.valor}}</b>
-    </button>
+
+
+    <div *ngFor="let local of locais;">
+
+
+      <ion-card *ngIf="local.video">
+        <div [innerHtml]="local.video | sanitizeHtml">
+        </div>
+      </ion-card>
+
+      <button *ngIf="local.nome" ion-item color="secondary" (click)="mostrarDetalhes(local)" text-wrap>
+
+
+
+        {{local.nome}} -
+        <b light>{{local.valor}}</b>
+
+
+
+      </button>
+
+
+
+    </div>
+
+
+
+
   </ion-list>
 
 </ion-content>

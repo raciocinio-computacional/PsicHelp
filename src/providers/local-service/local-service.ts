@@ -13,6 +13,7 @@ export class LocalServiceProvider {
 
     // Tipos de serviço psicologia e psiquiatria
     let s = {
+      "caps": "CAPS",
       "i": "Terapia individual",
       "g": "Terapia de Grupo",
       "f": "Terapia Familiar",
@@ -21,7 +22,7 @@ export class LocalServiceProvider {
       "l": "LGBT",
       "d": "Drogas"
     }
-    
+
     // Tipos de serviço psicologia
     let estabelecimentos = [
 
@@ -36,12 +37,21 @@ export class LocalServiceProvider {
       //   mapa: ''
       // },
 
+
+      {
+        video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/1rNueM-JqCQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
+        servico: [s.caps],
+
+      },
+
+
+
       {
         nome: "CAPS AD - Centro de Atenção Psicossocial Álcool e Drogas",
         end: "Rua Conde Pereira Carneiro, 271, Pernambués",
         tel: "3238-2847",
         valor: "Gratuito",
-        servico: [s.i,s.g,s.d],
+        servico: [s.i, s.g, s.d],
         descricao_servicos: "Atendimento psiquiátrico e psicoterapia de adultos ou crianças e adolescentes com necessidades decorrentes do uso de crack, álcool e outras drogas, grupos e oficinas. Compreende o território do distrito Cabula Beirú, Boca do Rio, Liberdade e Itapuã.",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0489063423342!2d-38.466854185177986!3d-12.96872239085781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161ade30870785%3A0x2708ee5624f75575!2sR.+Conde+Pereira+Carneiro%2C+271+-+Pernambu%C3%A9s%2C+Salvador+-+BA%2C+41100-010!5e0!3m2!1spt-BR!2sbr!4v1530940558299" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
       },
@@ -50,7 +60,7 @@ export class LocalServiceProvider {
         end: "Av. Pedro Lessa, n 123, Canela.",
         tel: "3283-7180/ 7181",
         valor: "Gratuito",
-        servico: [s.i,s.g,s.d],
+        servico: [s.i, s.g, s.d],
         descricao_servicos: "Atendimento psicológico individual e em grupo ao usuário de drogas,  oficinas, salas de espera, ponto da cidadania, programa de intensificação de cuidados.",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.6522207459925!2d-38.525833285177754!3d-12.994081790841182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7160486c4fd4d4b%3A0x9b8b6c3240dc6390!2sR.+Pedro+Lessa%2C+123+-+Canela%2C+Salvador+-+BA%2C+40110-050!5e0!3m2!1spt-BR!2sbr!4v1530940782888" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
       },
@@ -59,7 +69,7 @@ export class LocalServiceProvider {
         end: "Av. Bomfim, 161, Largo de Roma, Portão 7",
         tel: "3310-1195/ 3310-1291",
         valor: "Gratuito",
-        servico: [s.i,s.g,s.d],
+        servico: [s.i, s.g, s.d],
         descricao_servicos: "Psicoterapia individual, grupos terapêuticos, grupos informativos, internação, acompanhamento ambulatorial a pessoas com necessidades decorrentes do uso abusivo de álcool.",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5733980210753!2d-38.509015100706094!3d-12.935117562534588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf3fc696323413476!2sAmbulat%C3%B3rio+Presidente+Jos%C3%A9+Sarney!5e0!3m2!1spt-BR!2sbr!4v1530941046948" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
       },
@@ -218,7 +228,7 @@ export class LocalServiceProvider {
         end: "Rua Theodomiro Batista, 422, Rio Vermelho",
         tel: "3205-1745",
         valor: "Gratuito",
-        servico: [s.i, s.p  , s.l],
+        servico: [s.i, s.p, s.l],
         descricao_servicos: "Orientação profissional, psicoterapia individual e familiar (todas as faixas etárias), diagnóstico e reabilitação cognitiva.Atendimento psicológico com enfoque em gênero(núcleo de Direitos Humanos e LGBT).",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1943.7040583534754!2d-38.48220960800574!3d-13.009662778361196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161cabb1e48e97%3A0x2980e20c7b0b64ea!2sRua+Theodomiro+Baptista%2C+422+-+Rio+Vermelho%2C+BA%2C+41940-320!5e0!3m2!1spt-BR!2sbr!4v1530884106686" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
       },
@@ -294,7 +304,7 @@ export class LocalServiceProvider {
         end: "Av.  Joana  Angélica,  n°124,  Nazaré  (Próximo  ao  colégio  central  e  curso opção).",
         tel: "3242-5959",
         valor: "Acordado  entre  terapeuta  e  atendido  de  acordo  com  condição socioeconômica  do  mesmo",
-	      servico: [s.i,s.g,s.f],
+        servico: [s.i, s.g, s.f],
         descricao_servicos: "Psicoterapia  de  família,  casal,  adolescente,  individual e  em  grupo.",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.861241087727!2d-38.51263624930484!3d-12.980725563465388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604eb76dc1d9b%3A0x8d29f926c01e5948!2sAv.+Joana+Ang%C3%A9lica%2C+124+-+Nazar%C3%A9%2C+Salvador+-+BA%2C+40050-003!5e0!3m2!1spt-BR!2sbr!4v1531318273919" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
       },
@@ -303,10 +313,45 @@ export class LocalServiceProvider {
         end: "Parque  Lucaia,  n  281,  Edf.  WM,  Sala  404,  Horto  Florestal.",
         tel: "3022-3149",
         valor: "Triagem  gratuita. Valor  do  atendimento  gratuito ou negociado.",
-        servico: [s.i,s.g],
+        servico: [s.i, s.g],
         descricao_servicos: "Psicoterapia  individual, de  família  e  casal.",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.461910601058!2d-38.49029245753272!3d-13.00623072811388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71603560859f611%3A0xd6b7ca8e618b7557!2sR.+Lucaia%2C+281+-+Rio+Vermelho%2C+Salvador+-+BA%2C+41940-660!5e0!3m2!1spt-BR!2sbr!4v1531318996417" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
       },
+
+      // Flávia
+      {
+        nome: "CAPS II GARCIA/UFBA",
+        end: "R. Leovigildo Filgueiras 392, Garcia Ref. Próx. Colégio 2 de Julho",
+        tel: "3328-7408 / 3329-1004",
+        valor: "Gratuito",
+        servico: [s.caps],
+        descricao_servicos: "Atendimento das 8h00 às 17h00",
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.687480564788!2d-38.519506685685705!3d-12.991829663734729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716048545244633%3A0x659fe50b296e003c!2sCAPS+II+UFBA!5e0!3m2!1spt-BR!2sbr!4v1531403433648" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>  ',
+        bairros_atendidos: "Alto da Bola, Alto da Sereia, Alto das Pombas, Alto do Areal, Alto do Gantois, Alto do Sobradinho, Amaralina, Avenida Brandão, Baixa Vai quem quer, Banco dos Ingleses, Barra, Barra Avenida, Binóculo, Cardeal da Silva, Calabar, Calabar, Caminho das Arvores, Campo Santo, Canela, Centenário, Chame-Chame, Chapada do Rio Vermelho, Engenho Velho Federação, Federação, Garcia, Garibaldi, Graça, Iguatemi, Invasão do Cai Duro, Invasão do Tubo, Invasão São Lázaro, Itaigara, Jardim América, Jardim Apipema, Jardim Brasil, Jardim Zoológico, Loteamento Aquários, Loteamento IAPSEB, Morro do Conselho, Morro do Cristo, Morro do Gato, Morro Ipiranga, Nordeste de Amaralina, Ondina, Paciência, Parque Cruz Aguiar, Parque Flamboyants, Parque João XXIII, Parque Júlio César, Parque Nossa Sra. da Luz, Parque São Brás, Parque São Paulo, Parque São Vicente, Pedra da Sereia, Pituba, Ponto da Mangueira, Porto da Barra, Rio Vermelho, Roça da Sabina, Santa Cruz, São Gonçalo Federação, São Lázaro, Ubaranas, Vale da Muriçoca, Vale das Pedrinhas, Vale dos Barris, Vasco da Gama, Vila Matos, Vitória."
+      },
+      {
+        nome: "CAPS II Oswaldo Camargo",
+        end: "R. Itabuna S/N, Rio Vermelho Prox. Antiga Coca-Cola",
+        tel: "3611-3917",
+        valor: "Gratuito",
+        servico: [s.caps],
+        descricao_servicos: "Atendimento das 8h00 às 17h00",
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.4381307725484!2d-38.49429658517754!3d-13.007747990832177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7160356f731022b%3A0xe01610742ab37e21!2sCentro+de+Saude+Mental+Oswaldo+Camargo!5e0!3m2!1spt-BR!2sbr!4v1531406263467" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>',
+        bairros_atendidos: "Alto da Bola, Alto da Sereia, Alto das Pombas, Alto do Areal, Alto do Gantois, Alto do Sobradinho, Amaralina, Avenida Brandão, Baixa Vai quem quer, Banco dos Ingleses, Barra, Barra Avenida, Binóculo, Cardeal da Silva, Calabar, Calabar, Caminho das Arvores, Campo Santo, Canela, Centenário, Chame-Chame, Chapada do Rio Vermelho, Engenho Velho Federação, Federação, Garcia, Garibaldi, Graça, Iguatemi, Invasão do Cai Duro, Invasão do Tubo, Invasão São Lázaro, Itaigara, Jardim América, Jardim Apipema, Jardim Brasil, Jardim Zoológico, Loteamento Aquários, Loteamento IAPSEB, Morro do Conselho, Morro do Cristo, Morro do Gato, Morro Ipiranga, Nordeste de Amaralina, Ondina, Paciência, Parque Cruz Aguiar, Parque Flamboyants, Parque João XXIII, Parque Júlio César, Parque Nossa Sra. da Luz, Parque São Brás, Parque São Paulo, Parque São Vicente, Pedra da Sereia, Pituba, Ponto da Mangueira, Porto da Barra, Rio Vermelho, Roça da Sabina, Santa Cruz, São Gonçalo Federação, São Lázaro, Ubaranas, Vale da Muriçoca, Vale das Pedrinhas, Vale dos Barris, Vasco da Gama, Vila Matos, Vitória."
+      },
+      {
+        nome: "CAPSi Luis Meira Lessa",
+        end: "Rua das Magaloeiras, 32 - Jaguaribes,",
+        tel: "3335-6827 / 3611-7913",
+        valor: "Gratuito",
+        servico: [s.caps],
+        descricao_servicos: "",
+        mapa: ' <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.220791818141!2d-38.396048385686214!3d-12.957718913040042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7160353aaaaaaabb%3A0x66519860fb153b6a!2sCAPSi+Luis+Meira+Lessa!5e0!3m2!1spt-BR!2sbr!4v1531403518546" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> ',
+        bairros_atendidos: "Abaeté, Aeroporto, Aldeia Jaguaribe, Alto do Coqueiro, Alto do Girassol, Alto do São João, Areia  Branca, Bairro da Paz, Baixa do Dendê, Barro Duro, Cajueiro, Campinas, Capelão, Ceasa, Costa Verde, Itapuã, Jardim Atalaia, Jardim das Margaridas, Jardim Jaguaribe, Jardim Piatã, Jardim tropical, Loteamento Alameda Praia, Loteamento Cassangê, Loteamento Colina Fonte, Loteamento Farol Itapuã, Loteamento Pedra do sal, Loteamento Praia do Flamengo, Loteamento Stela Maris, Malvinas, Mussurunga, Nova Brasília, Paralela, Patamares, Piatã, Placaford, São Cristóvão, Vila Ex-Combatentes."
+      },
+
+
+
 
     ]
     return estabelecimentos;
