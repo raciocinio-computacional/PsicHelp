@@ -43,15 +43,12 @@ export class LocalServiceProvider {
         servico: [s.caps],
 
       },
-
-
-
       {
         nome: "CAPS AD - Centro de Atenção Psicossocial Álcool e Drogas",
         end: "Rua Conde Pereira Carneiro, 271, Pernambués",
         tel: "3238-2847",
         valor: "Gratuito",
-        servico: [s.i, s.g, s.d],
+        servico: [s.i, s.g, s.d, s.caps],
         descricao_servicos: "Atendimento psiquiátrico e psicoterapia de adultos ou crianças e adolescentes com necessidades decorrentes do uso de crack, álcool e outras drogas, grupos e oficinas. Compreende o território do distrito Cabula Beirú, Boca do Rio, Liberdade e Itapuã.",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0489063423342!2d-38.466854185177986!3d-12.96872239085781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161ade30870785%3A0x2708ee5624f75575!2sR.+Conde+Pereira+Carneiro%2C+271+-+Pernambu%C3%A9s%2C+Salvador+-+BA%2C+41100-010!5e0!3m2!1spt-BR!2sbr!4v1530940558299" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
       },
@@ -350,9 +347,120 @@ export class LocalServiceProvider {
         bairros_atendidos: "Abaeté, Aeroporto, Aldeia Jaguaribe, Alto do Coqueiro, Alto do Girassol, Alto do São João, Areia  Branca, Bairro da Paz, Baixa do Dendê, Barro Duro, Cajueiro, Campinas, Capelão, Ceasa, Costa Verde, Itapuã, Jardim Atalaia, Jardim das Margaridas, Jardim Jaguaribe, Jardim Piatã, Jardim tropical, Loteamento Alameda Praia, Loteamento Cassangê, Loteamento Colina Fonte, Loteamento Farol Itapuã, Loteamento Pedra do sal, Loteamento Praia do Flamengo, Loteamento Stela Maris, Malvinas, Mussurunga, Nova Brasília, Paralela, Patamares, Piatã, Placaford, São Cristóvão, Vila Ex-Combatentes."
       },
 
-
-
-
+      // Vanessa
+      {
+        nome: "CAPS II Rosa Garcia",
+        end: " R. Prof. Euclides Alipio de Oliveira 236, Jd Armação Atrás do Rest. Bargaço, 1a Rua a Direita",
+        tel: "3611-2968",
+        valor: "Gratuito",
+        servico: [s.caps],
+        descricao_servicos: "08hrs às 17hrs",
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.8433425995895!2d-38.440675549497406!3d-12.981869790804227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161ba945007a01%3A0xd747d0828cbddd04!2sCAPS+Rosa+Garcia!5e0!3m2!1sen!2sbr!4v1531404220176" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>',
+        bairros_atendidos: "Armação, Aeroclube, Alto da Alegria, Alto do São Francisco, Baixa Fria, Barreiro, Bate Facho, Boca do Rio, Caxundé,Bolandeira, Conjunto Marback, Conjunto Rio das Pedras, Conjunto Solarium, Conjunto Solarium, Conjunto Vale dos Rios, Corsário, Costa Azul, Imbui, Invasão Alto de São João, Invasão Baixa Cajueiro, Invasão Bananal, Invasão da Rocinha, Invasão Golfo Pérsico, Invasão Irmã Dulce, Invasão Kwait, Invasão Novo Paraíso, Invasão Sonho Dourado, Jardim Imperial, Loteamento Vela Branca, Pituaçu."
+      },
+      {
+        nome: "CAPS II Aristides Novis",
+        end: "R. Almirante Alves Camara S/N, Engenho Velho de Brotas. Prox. Secret.Educação do Município",
+        tel: "3611-2956/3611-2953",
+        valor: "Gratuito",
+        servico: [s.caps],
+        descricao_servicos: "08hrs às 17hrs",
+        mapa: ' <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7954055875744!2d-38.5037336431724!3d-12.984933854235305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604c72421ba5f%3A0xb4cc0ed7e8f3cdbf!2sCentro+de+Sa%C3%BAde+Aristides+N%C3%B3vis!5e0!3m2!1sen!2sbr!4v1531404148736" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> ',
+        bairros_atendidos: "Acupe, Alto do Formoso, Alto do Saldanha, Baixa Candeal Pequeno, Brotas, Buraco da Gia, Campinas de Brotas, Engenho Velho de Brotas, Galés, Parque Florestal, Parque Bela Vista, Baixa do Cacau – 2, Baixa do Tubo –1, Bandeirantes, Boa Vista de Brotas, Bonocô, Candeal, Castro Neves, Cosme de Farias, Cruz da Redenção, Daniel Lisboa, Dois Leões, Invasão Ogunjá, Invasão Pela Porco, Invasão Polêmica, Jardim Caiçara, Luís Anselmo, Matatu, Ogunjá, Pepino, Pitangueiras, Santa Rita, Santo Agostinho, Sete Portas, Vila América, Vila Laura."
+      },
+      {
+        nome: "CAPS II Eduardo Saback",
+        end: "R. Conde Pereira Carneiro 148, Pernambues. Em Frente a Rádio Metrópole",
+        tel: "3460-1957 / 3611-7912",
+        valor: "Gratuito",
+        servico: [s.caps],
+        descricao_servicos: "08hrs às 17hrs",
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0469966500646!2d-38.46702844949765!3d-12.968844590812864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161ade309b038f%3A0x3c39b34f3a1ee5e1!2sCAPS+Eduardo+Saback!5e0!3m2!1sen!2sbr!4v1531403640550" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>  ',
+        bairros_atendidos: "Alto da Ventosa, Alto do Arraial, Alto do Calabetão, Alto do Cruzeiro – 1, Arenoso, Arraial do Retiro, Baixa da Paz, Baixa de Santo Antônio, Baixa do Calabetão, Baixa do Cruzeiro, Baixa do Manú, Baixa do Manú, Baixa do Sapo, Baixa do Tubo – 2, Baixinha Santo Antônio, Barreiras, Bate Folha, Beco da Coruja, Beco do Fuxico, Beirú-Tancredo Neves, Bom Futuro, CAB, Cabula, Cabula I, Cabula II, Cabula III, Cabula IV, Cabula VI, Cabula VII, Cabula IX, Cabula X, Calabetão, Campo Seco, Chácara Perseverança, Chácara Senhor do Bonfim, Cocheira, Invasão Barreiras, Invasão Barreiras, Invasão CAB, Invasão Narandiba, Cj. Baia de Todos os Santos, Conjunto J. S. Cavalcante, Conjunto Jardim Cabula, Conjunto João Durval, Conjunto Novo Horizonte, Conjunto Parque Flamengo, Conjunto Salvador, Conjunto Santa Edwirgens, Doron, Engomadeira, Fazenda Pompilio Bittencourt, Jardim Guiomar, Jardim Pampulha, Jardim Santo Inácio, João Caldas, Loteamento Jardim Brasília, Loteamento Jardim Iara, Mata Escura, Narandiba, Nova Sussuarana, Parque Jacélia, Parque Residencial  Vale Mangueira, Pedreira S. G. Retiro, Pernambués, Saboeiro, São Gonçalo, Sussuarana, Tesoura, Vila Aberlado Magalhães, Vila Dois Irmãos."
+      },
+      //Thaiane  
+      {
+        nome: "CAPS II Aristides Novis",
+        end: "R. Almirante Alves Camara S/N, Engenho Velho de Brotas. Prox. Secret.Educação do Município",
+        tel: " 3611-2956",
+        valor: "Gratuito",
+        servico: [s.caps],
+        descricao_servicos: "8 às 18 horas ",
+        mapa: ' <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7954053018484!2d-38.503728278494485!3d-12.98493387249636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604c72421ba5f%3A0xb4cc0ed7e8f3cdbf!2sCentro+de+Sa%C3%BAde+Aristides+N%C3%B3vis!5e0!3m2!1sen!2sbr!4v1531401539389" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> ',
+        bairros_atendidos: "Alto da Bola, Alto da Sereia, Alto das Pombas, Alto do Areal, Alto do Gantois, Alto do Sobradinho, Amaralina, Avenida Brandão, Baixa Vai quem quer, Banco dos Ingleses, Barra, Barra Avenida, Binóculo, Cardeal da Silva, Calabar, Calabar, Caminho das Arvores, Campo Santo, Canela, Centenário, Chame-Chame, Chapada do Rio Vermelho, Engenho Velho Federação, Federação, Garcia, Garibaldi, Graça, Iguatemi, Invasão do Cai Duro, Invasão do Tubo, Invasão São Lázaro, Itaigara, Jardim América, Jardim Apipema, Jardim Brasil, Jardim Zoológico, Loteamento Aquários, Loteamento IAPSEB, Morro do Conselho, Morro do Cristo, Morro do Gato, Morro Ipiranga, Nordeste de Amaralina, Ondina, Paciência, Parque Cruz Aguiar, Parque Flamboyants, Parque João XXIII, Parque Júlio César, Parque Nossa Sra. da Luz, Parque São Brás, Parque São Paulo, Parque São Vicente, Pedra da Sereia, Pituba, Ponto da Mangueira, Porto da Barra, Rio Vermelho, Roça da Sabina, Santa Cruz, São Gonçalo Federação, São Lázaro, Ubaranas, Vale da Muriçoca, Vale das Pedrinhas, Vale dos Barris, Vasco da Gama, Vila Matos, Vitória."
+      },
+      {
+        nome: "CAPS II Eduardo Saback",
+        end: "R. Conde Pereira Carneiro 148, Pernambues. Em Frente a Rádio Metrópole",
+        tel: "3460-1957 / 3611-7912",
+        valor: "Gratuito",
+        servico: [s.caps],
+        descricao_servicos: " 8 às 18 horas ",
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>  ',
+        bairros_atendidos: "Alto da Ventosa, Alto do Arraial, Alto do Calabetão, Alto do Cruzeiro – 1, Arenoso, Arraial do Retiro, Baixa da Paz, Baixa de Santo Antônio, Baixa do Calabetão, Baixa do Cruzeiro, Baixa do Manú, Baixa do Manú, Baixa do Sapo, Baixa do Tubo – 2, Baixinha Santo Antônio, Barreiras, Bate Folha, Beco da Coruja, Beco do Fuxico, Beirú-Tancredo Neves, Bom Futuro, CAB, Cabula, Cabula I, Cabula II, Cabula III, Cabula IV, Cabula VI, Cabula VII, Cabula IX, Cabula X, Calabetão, Campo Seco, Chácara Perseverança, Chácara Senhor do Bonfim, Cocheira, Invasão Barreiras, Invasão Barreiras, Invasão CAB, Invasão Narandiba, Cj. Baia de Todos os Santos, Conjunto J. S. Cavalcante, Conjunto Jardim Cabula, Conjunto João Durval, Conjunto Novo Horizonte, Conjunto Parque Flamengo, Conjunto Salvador, Conjunto Santa Edwirgens, Doron, Engomadeira, Fazenda Pompilio Bittencourt, Jardim Guiomar, Jardim Pampulha, Jardim Santo Inácio, João Caldas, Loteamento Jardim Brasília, Loteamento Jardim Iara, Mata Escura, Narandiba, Nova Sussuarana, Parque Jacélia, Parque Residencial  Vale Mangueira, Pedreira S. G. Retiro, Pernambués, Saboeiro, São Gonçalo, Sussuarana, Tesoura, Vila Aberlado Magalhães, Vila Dois Irmãos."
+      },
+      {
+        nome: "CAPS AD Pernambues",
+        end: "Conde Pereira Carneiro 271, Pernambues. Em Frente a Rádio Metrópole",
+        tel: "3238-2847",
+        valor: "Gratuito",
+        servico: [s.caps],
+        descricao_servicos: "segunda a sexta-feira",
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.045907398281!2d-38.466969249497694!3d-12.968914290812785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161ade305f1ce1%3A0x724a308e96882ce!2sCaps-ad!5e0!3m2!1sen!2sbr!4v1531402269181" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>',
+        bairros_atendidos: "Alto da Ventosa, Alto do Arraial, Alto do Calabetão, Alto do Cruzeiro – 1, Arenoso, Arraial do Retiro, Baixa da Paz, Baixa de Santo Antônio, Baixa do Calabetão, Baixa do Cruzeiro, Baixa do Manú, Baixa do Manú, Baixa do Sapo, Baixa do Tubo – 2, Baixinha Santo Antônio, Barreiras, Bate Folha, Beco da Coruja, Beco do Fuxico, Beirú-Tancredo Neves, Bom Futuro, CAB, Cabula, Cabula I, Cabula II, Cabula III, Cabula IV, Cabula VI, Cabula VII, Cabula IX, Cabula X, Calabetão, Campo Seco, Chácara Perseverança, Chácara Senhor do Bonfim, Cocheira, Invasão Barreiras, Invasão Barreiras, Invasão CAB, Invasão Narandiba, Cj. Baia de Todos os Santos, Conjunto J. S. Cavalcante, Conjunto Jardim Cabula, Conjunto João Durval, Conjunto Novo Horizonte, Conjunto Parque Flamengo, Conjunto Salvador, Conjunto Santa Edwirgens, Doron, Engomadeira, Fazenda Pompilio Bittencourt, Jardim Guiomar, Jardim Pampulha, Jardim Santo Inácio, João Caldas, Loteamento Jardim Brasília, Loteamento Jardim Iara, Mata Escura, Narandiba, Nova Sussuarana, Parque Jacélia, Parque Residencial  Vale Mangueira, Pedreira S. G. Retiro, Pernambués, Saboeiro, São Gonçalo, Sussuarana, Tesoura, Vila Aberlado Magalhães, Vila Dois Irmãos."
+      },
+      //Ester:
+      {
+        nome: "CAPS AD Gregório de Matos ",
+        end: "Faculdade de Medicina da UFBA - Pavilhão Carneiro de Campos - Terreiro de Jesus",
+        tel: "3283-5547 / 3322-0235/0304 ",
+        valor: "Gratuito",
+        servico: [s.caps],
+        descricao_servicos: "Focam no atendimento a pessoas que utilizam o álcool de maneira prejudicial e outras drogas",
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15551.282243560197!2d-38.52321792264122!3d-12.983326052851451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161a43294d8bbb%3A0x1cb6cfc0d17a0ff8!2sFaculdade+de+Medicina+da+Universidade+Federal+da+Bahia+-+FMB!5e0!3m2!1sen!2sbr!4v1531403447080" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>  ',
+        bairros_atendidos: "Água de Meninos, Aflitos, Ajuda, Alto da Esperança, Aquidabã, Baixa dos Sapateiros, Barbalho, Barris, Barroquinha, BoulevardSuisso, Campo da Pólvora, Campo Grande, Carmo, Centro, Comércio, Conceição da Praia, Curva Grande, Desterro, Djalma Dutra, Faísca, Fonte Nova, Forte de São Pedro, Gamboa, Jardim Bahiano, Lapa, Largo Dois de Julho, Loteamento Lanat, Macaúbas, Mercado do Ouro, Mercês, Misericórdia, Mouraria, Nazaré, Paço, Palma, Pelourinho, Piedade, Pilar, Poeira, Politeama, Rosário, Santa Tereza, Santana, Santo Antônio, São Bento, São Francisco, São Joaquim, São José, São Pedro, São Raimundo, Saúde, Sé, Taboão, Tororó."
+      },
+      {
+        nome: "CAPS II Ant° Roberto Pellegrino ",
+        end: "R. Arquimedes Gonçalves 226, Jardim Baiano. Prox. Campo da Pólvora",
+        tel: "3321-3679",
+        valor: "Gratuito",
+        servico: [s.caps],
+        descricao_servicos: "O público-alvo são adultos com transtornos mentais persistentes.Opera com uma equipe mínima de doze profissionais, com nível médio e superior, tendo um suporte para acompanhar cerca de 360 indivíduos por mês, de segunda a sexta-feira, com horário de funcionamento das 8 às 18 horas – pode oferecer um terceiro período, funcionando até as 21 horas.",
+        mapa: ' <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.859294817778!2d-38.508594949144445!3d-12.980849990804924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604ea7b97ef61%3A0x75f86c3364f550ab!2sR.+Arquimedes+Gon%C3%A7alves%2C+226+-+Nazar%C3%A9%2C+Salvador+-+BA%2C+40050-300!5e0!3m2!1sen!2sbr!4v1531403746249" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> ',
+        bairros_atendidos: "Água de Meninos, Aflitos, Ajuda, Alto da Esperança, Aquidabã, Baixa dos Sapateiros, Barbalho, Barris, Barroquinha, BoulevardSuisso, Campo da Pólvora, Campo Grande, Carmo, Centro, Comércio, Conceição da Praia, Curva Grande, Desterro, Djalma Dutra, Faísca, Fonte Nova, Forte de São Pedro, Gamboa, Jardim Bahiano, Lapa, Largo Dois de Julho, Loteamento Lanat, Macaúbas, Mercado do Ouro, Mercês, Misericórdia, Mouraria, Nazaré, Paço, Palma, Pelourinho, Piedade, Pilar, Poeira, Politeama, Rosário, Santa Tereza, Santana, Santo Antônio, São Bento, São Francisco, São Joaquim, São José, São Pedro, São Raimundo, Saúde, Sé, Taboão, Tororó."
+      },
+      // Felipe Oliveira
+      {
+        nome: "CAPS II Pau da Lima",
+        end: "Estrada das Muriçocas Cond. Dom Bosco, 1a Casa. De frente pro Shopping Ponto Alto.",
+        tel: "3259-2556",
+        valor: "Gratuito",
+        servico: [s.caps],
+        descricao_servicos: "das 08 as 17 hrs",
+        mapa: ' <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.583220730003!2d-38.41992974949788!3d-12.934487390835486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71610a39de36d89%3A0x2b67f9b7a709c373!2sCondo+Don+Bosco!5e0!3m2!1sen!2sbr!4v1531392704516" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> ',
+        bairros_atendidos: "Canabrava, São Marcos, Fazenda Mocambo, Mansão do Caminho, Castelo Branco, Invasão Brasilgás, Mata dos Oitis, Sete de Abri, Colina de Pituaçu, Invasão Caraíba Metais, Moradas do Campo, Conjunto Recanto das Ilhas, Invasão São Rafael, Lagos, Nova Brasília Ipitanga, Conjunto Trobogy, Canária, Coroado, Flamboyants, Jaguaribe II, Dom Avelar, Jardim Cajazeira, Novo Marotinho, Jardim Nova Esperança, Pau da Lima, Porto Seco Pirajá, Estrada Velha do Aeroporto, loteamento São José, Vivenda dos Pássaros."
+      },
+      {
+        nome: "CAPS II São Caetano",
+        end: "Rua prof° Goes Calmon s/n . Antigo Instituto Helena Jambeir, próx a 4 Delegacia, Esquina com a Policlinica de São Caetano.",
+        tel: "3259-2556",
+        valor: "Gratuito",
+        servico: [s.caps],
+        descricao_servicos: "das 08 as 17 hrs",
+        mapa: ' <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5763654616057!2d-38.48179314949799!3d-12.934927190835102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161aabe0ace397%3A0x419482a3a2bf82aa!2sRua+Professor+Francisco+G%C3%B3es+Calmon+-+S%C3%A3o+Caetano%2C+Salvador+-+BA%2C+40390-675!5e0!3m2!1sen!2sbr!4v1531393267662" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> ',
+        bairros_atendidos: "Alto da Boa Vista, Alto do Bom Viver, Alto do Peru, Baixa do Cacau, Baixa do Camurugipe, Bentivi, Boa Vista São Caetano, Bom Juá, Brasilgás, Calafate, Campinas de Pirajá, Capelinha de São Caetano, Cj. Dos Rodoviários, Fazenda Grande do Retiro, Formiga, Goméia, Jaqueira do Carneiro, Jardim Lobato, Largo do Retiro, Largo do Tanque, Loteamento Profilurb, Marechal Rondon, Marotinho, Para, Parque Schindler, Pirajá, Retiro, San Martin, Santa Luzia do Lobato, São Bartolomeu, São Caetano, Sussunga, Usiba, Valéria, Vila Leal."
+      },
+      {
+        nome: "Caps AD III Gey Espinheira",
+        end: "Estrada Velha de Campinas, No61, Pirajá",
+        tel: "3239-1178",
+        valor: "Gratuito",
+        servico: [s.caps],
+        descricao_servicos: "24 hrs",
+        mapa: ' <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15554.305471555159!2d-38.48838605723118!3d-12.934927035121607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716100e428e141f%3A0xe0c3af6a67dcae36!2sCAPS+AD+III+Gey+Espinheira!5e0!3m2!1sen!2sbr!4v1531393503388" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> ',
+        bairros_atendidos: "Alto da Boa Vista, Alto do Bom Viver, Alto do Peru, Baixa do Cacau, Baixa do Camurugipe, Bentivi, Boa Vista São Caetano, Bom Juá, Brasilgás, Calafate, Campinas de Pirajá, Capelinha de São Caetano, Cj. Dos Rodoviários, Fazenda Grande do Retiro, Formiga, Goméia, Jaqueira do Carneiro, Jardim Lobato, Largo do Retiro, Largo do Tanque, Loteamento Profilurb, Marechal Rondon, Marotinho, Para, Parque Schindler, Pirajá, Retiro, San Martin, Santa Luzia do Lobato, São Bartolomeu, São Caetano, Sussunga, Usiba, Valéria, Vila Leal."
+      },
     ]
     return estabelecimentos;
   }
