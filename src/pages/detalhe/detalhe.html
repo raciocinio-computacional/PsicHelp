@@ -34,6 +34,13 @@
       </span>
     </ion-item>
 
+    <ion-item bg-secondary *ngIf="estabelecimento.email" text-wrap>
+      <span light>
+        <ion-icon name="md-mail" item-start></ion-icon>
+        <a light href="mailto:{{estabelecimento.email}}">{{estabelecimento.email}}</a>
+      </span>
+    </ion-item>
+
     <ion-item bg-secondary *ngIf="estabelecimento.valor" text-wrap>
       <span light>
         <ion-icon name="md-cash" item-start></ion-icon>
