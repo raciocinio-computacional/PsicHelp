@@ -532,7 +532,7 @@ export class LocalServiceProvider {
         nome: "A. A. Grupo - 26",
         end: "R. Elmano Silveira Castro, 1A",
         tel: "(71) 3322-2963",
-        valor: "Gratuito ou taxa simbólica",
+        valor: "Contribuição voluntária",
         servico: [s.d],
         descricao_servicos: "Auxílio a individuo com problemas alcoólicos",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.257528236325!2d-38.48325668517819!3d-12.955365990866555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161acc7378dbc9%3A0xc2f2ccf2abcbca04!2sA.+A.+Grupo+-+26!5e0!3m2!1spt-BR!2sbr!4v1531927300676" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
@@ -541,7 +541,7 @@ export class LocalServiceProvider {
         nome: "Grupo Brotas",
         end: "Av. Dom João VI, 423",
         tel: "(71) 98213-1953",
-        valor: "Gratuito ou taxa simbólica",
+        valor: "Contribuição voluntária",
         servico: [s.d],
         descricao_servicos: "Auxílio a individuo com problemas alcoólicos",
         mapa: ' <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.732428717619!2d-38.484210949558204!3d-12.9889581636326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b4a674c07a7%3A0x4951edf977d21e07!2sGrupo+Brotas+de+Narc%C3%B3ticos+An%C3%B4nimos!5e0!3m2!1spt-BR!2sbr!4v1531927536286" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
@@ -550,7 +550,7 @@ export class LocalServiceProvider {
         nome: "A. A. Grupo Libertação ",
         end: "Rua Nelson Antonio Bahia, s/n",
         tel: "(71) 3322-2963",
-        valor: "Gratuito ou taxa simbólica",
+        valor: "Contribuição voluntária",
         servico: [s.d],
         descricao_servicos: "Auxílio a individuo com problemas alcoólicos",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.8360543033577!2d-38.36761724955931!3d-12.91825656219534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161703f4cbe311%3A0xe3ef967e29329c3c!2sA.+A.+Grupo+Liberta%C3%A7%C3%A3o+-+26!5e0!3m2!1spt-BR!2sbr!4v1531927594266" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
@@ -559,7 +559,7 @@ export class LocalServiceProvider {
         nome: "A. A. Grupo Unidos de Brotas",
         end: "R. Cosme de Farias, 42",
         tel: "(71) 3322-2963",
-        valor: "Gratuito ou taxa simbólica",
+        valor: "Contribuição voluntária",
         servico: [s.d],
         descricao_servicos: "Auxílio a individuo com problemas alcoólicos",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.888649864694!2d-38.49734524955829!3d-12.978973163429142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604cf7b513c8b%3A0xf64869a42dd39f27!2sA.+A.+Grupo+Unidos+de+Brotas+-+26!5e0!3m2!1spt-BR!2sbr!4v1531927638706" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
@@ -568,7 +568,7 @@ export class LocalServiceProvider {
         nome: "A. A. Grupo Sete ",
         end: "Avenida José Joaquim Seabra, s/n",
         tel: "(71) 3322-2963",
-        valor: "Gratuito ou taxa simbólica",
+        valor: "Contribuição voluntária",
         servico: [s.d],
         descricao_servicos: "Auxílio a individuo com problemas alcoólicos",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.978233227609!2d-38.50972404955828!3d-12.973243963312461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604e7c32fe977%3A0xbe83a5c30baa470d!2sA.+A.+Grupo+Sete+Portas+-+26!5e0!3m2!1spt-BR!2sbr!4v1531927810186" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
@@ -577,7 +577,7 @@ export class LocalServiceProvider {
         nome: "A. A. Grupo Caminho",
         end: "R. Marujos do Brasil, 5",
         tel: "(71) 3322-2963",
-        valor: "Gratuito ou taxa simbólica",
+        valor: "Contribuição voluntária",
         servico: [s.d],
         descricao_servicos: "Auxílio a individuo com problemas alcoólicos",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
@@ -586,7 +586,7 @@ export class LocalServiceProvider {
         nome: "A. A. Grupo Cabula VI",
         end: "R. Teódulo de Albuquerque, 298",
         tel: "(71) 3322-2963",
-        valor: "Gratuito ou taxa simbólica",
+        valor: "Contribuição voluntária",
         servico: [s.d],
         descricao_servicos: "Auxílio a individuo com problemas alcoólicos",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.2847568162692!2d-38.444730549558685!3d-12.953621762913238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161a61da0de185%3A0xcd329b4a690d47c7!2sA.+A.+Grupo+Cabula+VI+-+26!5e0!3m2!1spt-BR!2sbr!4v1531928209598" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
