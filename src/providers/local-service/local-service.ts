@@ -466,7 +466,7 @@ export class LocalServiceProvider {
         end: "Rua Aristóteles Costa Leal no 36 - Piatã (Atrás do Habib ́s).",
         tel: "3611-3546",
         valor: "Gratuito",
-        servico:  [s.caps],
+        servico: [s.caps],
         descricao_servicos: "",
         mapa: ' <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.3119637525165!2d-38.38215334949757!3d-12.95187869082394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71619e0a1c9aa21%3A0x41960895b550d616!2sCAPS+II+-+Franco+Basaglia!5e0!3m2!1sen!2sbr!4v1531316139520" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> ',
         bairros_atendidos: "Abaeté, Aeroporto, Aldeia Jaguaribe, Alto do Coqueiro, Alto do Girassol, Alto do São João, Areia  Branca, Bairro da Paz, Baixa do Dendê, Barro Duro, Cajueiro, Campinas, Capelão, Ceasa, Costa Verde, Itapuã, Jardim Atalaia, Jardim das Margaridas, Jardim Jaguaribe, Jardim Piatã, Jardim tropical, Loteamento Alameda Praia, Loteamento Cassangê, Loteamento Colina Fonte, Loteamento Farol Itapuã, Loteamento Pedra do sal, Loteamento Praia do Flamengo, Loteamento Stela Maris, Malvinas, Mussurunga, Nova Brasília"
@@ -476,7 +476,7 @@ export class LocalServiceProvider {
         end: "Rua Jardim Vera Cruz, Quadra 01, Lote 06- IAPI. Rua da Clínica Bom",
         tel: "3611-4140",
         valor: "Gratuito",
-        servico:  [s.caps],
+        servico: [s.caps],
         descricao_servicos: "3611-4140",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.2817449301624!2d-38.48548530080978!3d-12.95381471183436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161acb570189e1%3A0xe6cec0288de4755c!2sSpace+Healing!5e0!3m2!1sen!2sbr!4v1531316906445" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>  ',
         bairros_atendidos: "Baixa de Quintas, Bairro Guarani, Baixa dos Frades, IAPI, Barros Reis, Caixa D’Água, Cidade Nova, Curuzú, Estrada da Rainha, Freitas Henrique, IAPI, Japão, Jardim Eldorado, Jardim Joana D’Arc, Jardim Vera Cruz, Lapinha, Liberdade, Nova Divinéia, Pau Miúdo, Pero Vaz, Queimadinho, Rocinha do IAPI, Santa Mônica, Sertanejo, Sieiro."
@@ -486,7 +486,7 @@ export class LocalServiceProvider {
         end: "R. Conde de Porto Alegre 11, IAPI. Prox. Ao Hospital Mário Leal.",
         tel: "3611-9011",
         valor: "Gratuito",
-        servico:  [s.caps],
+        servico: [s.caps],
         descricao_servicos: "3611-9011",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.2183297441557!2d-38.49022514949762!3d-12.957876590820021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716053276469845%3A0xd7122a7ad270df35!2sHospital+Especializado+Mario+Leal!5e0!3m2!1sen!2sbr!4v1531317201945" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>  ',
         bairros_atendidos: "BARRA, RIO VERMELHO,BROTAS, CABULA,BEIRU, CENTRO HISTÓRICO, ITAPAGIPE, LIBERDADE, SÃO CAETANO, VALÉRIA, SUBÚRBIO FERROVIÁRIO"
@@ -509,24 +509,88 @@ export class LocalServiceProvider {
         tel: "3521-4706",
         email: "capsnzinga@ig.com.br",
         valor: "Gratuito",
-        servico:  [s.caps],
+        servico: [s.caps],
         descricao_servicos: "08hrs às 17hrs",
         mapa: '',
         bairros_atendidos: "Alto da Boa Vista do Lobato, Alto do Cabrito, Alto do Cruzeiro – 2, Alto do Lobato, Alto Santa Terezinha, Baixa da Boa Vista do Lobato, Bariri, Base Naval de Aratu, Beira Mangue, Bela Vista do Lobato, Bela Vista Periperi, Coutos, Escada, Felicidade, Gameleira, Ilha Amarela, Ilha de Maré, Itacaranha, Lobato, Loteamento Fazenda Coutos, Mirantes de Periperi, Novos Alagados, Paripe, Parque São Bartolomeu, Pedrinhas, Periperi, Plataforma, Ponta da Sapoca, Praia Grande, Rio Sena, São Tomé de Paripe, Setúbal, Tubarão, Vista"
       },
+
+      // Evandro
       {
         nome: "Consultório de Psicologia Adam Pereira",
         end: "Estrada Guandu do Sapê, 112, sl 201, Campo Grande, Rio de Janeiro - RJ",
         tel: "(21)99236-8979",
         email: "adam.psique@gmail.com",
         valor: "R$40,00",
-        servico: [s.online],
+        servico: [s.online, s.i],
         descricao_servicos: "Psicologia. Atendimento online de diversas cidades do Brasil e exterior. www.psicologiaviva.com.br/adampereira",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.752594523973!2d-43.563493985034825!3d-22.885595985022633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be3d8b1d97801%3A0x4bde266ba454f14c!2sEstr.+Guand%C3%BA+do+Sap%C3%A9%2C+112+-+Campo+Grande%2C+Rio+de+Janeiro+-+RJ%2C+23075-000!5e0!3m2!1spt-BR!2sbr!4v1531978532356" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
       },
 
-
-
+      //Williams
+      {
+        nome: "A. A. Grupo - 26",
+        end: "R. Elmano Silveira Castro, 1A",
+        tel: "(71) 3322-2963",
+        valor: "Gratuito ou taxa simbólica",
+        servico: [s.d],
+        descricao_servicos: "Auxílio a individuo com problemas alcoólicos",
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.257528236325!2d-38.48325668517819!3d-12.955365990866555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161acc7378dbc9%3A0xc2f2ccf2abcbca04!2sA.+A.+Grupo+-+26!5e0!3m2!1spt-BR!2sbr!4v1531927300676" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+      },
+      {
+        nome: "Grupo Brotas",
+        end: "Av. Dom João VI, 423",
+        tel: "(71) 98213-1953",
+        valor: "Gratuito ou taxa simbólica",
+        servico: [s.d],
+        descricao_servicos: "Auxílio a individuo com problemas alcoólicos",
+        mapa: ' <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.732428717619!2d-38.484210949558204!3d-12.9889581636326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b4a674c07a7%3A0x4951edf977d21e07!2sGrupo+Brotas+de+Narc%C3%B3ticos+An%C3%B4nimos!5e0!3m2!1spt-BR!2sbr!4v1531927536286" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+      },
+      {
+        nome: "A. A. Grupo Libertação ",
+        end: "Rua Nelson Antonio Bahia, s/n",
+        tel: "(71) 3322-2963",
+        valor: "Gratuito ou taxa simbólica",
+        servico: [s.d],
+        descricao_servicos: "Auxílio a individuo com problemas alcoólicos",
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.8360543033577!2d-38.36761724955931!3d-12.91825656219534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161703f4cbe311%3A0xe3ef967e29329c3c!2sA.+A.+Grupo+Liberta%C3%A7%C3%A3o+-+26!5e0!3m2!1spt-BR!2sbr!4v1531927594266" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+      },
+      {
+        nome: "A. A. Grupo Unidos de Brotas",
+        end: "R. Cosme de Farias, 42",
+        tel: "(71) 3322-2963",
+        valor: "Gratuito ou taxa simbólica",
+        servico: [s.d],
+        descricao_servicos: "Auxílio a individuo com problemas alcoólicos",
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.888649864694!2d-38.49734524955829!3d-12.978973163429142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604cf7b513c8b%3A0xf64869a42dd39f27!2sA.+A.+Grupo+Unidos+de+Brotas+-+26!5e0!3m2!1spt-BR!2sbr!4v1531927638706" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+      },
+      {
+        nome: "A. A. Grupo Sete ",
+        end: "Avenida José Joaquim Seabra, s/n",
+        tel: "(71) 3322-2963",
+        valor: "Gratuito ou taxa simbólica",
+        servico: [s.d],
+        descricao_servicos: "Auxílio a individuo com problemas alcoólicos",
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.978233227609!2d-38.50972404955828!3d-12.973243963312461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604e7c32fe977%3A0xbe83a5c30baa470d!2sA.+A.+Grupo+Sete+Portas+-+26!5e0!3m2!1spt-BR!2sbr!4v1531927810186" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+      },
+      {
+        nome: "A. A. Grupo Caminho",
+        end: "R. Marujos do Brasil, 5",
+        tel: "(71) 3322-2963",
+        valor: "Gratuito ou taxa simbólica",
+        servico: [s.d],
+        descricao_servicos: "Auxílio a individuo com problemas alcoólicos",
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+      },
+      {
+        nome: "A. A. Grupo Cabula VI",
+        end: "R. Teódulo de Albuquerque, 298",
+        tel: "(71) 3322-2963",
+        valor: "Gratuito ou taxa simbólica",
+        servico: [s.d],
+        descricao_servicos: "Auxílio a individuo com problemas alcoólicos",
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.2847568162692!2d-38.444730549558685!3d-12.953621762913238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161a61da0de185%3A0xcd329b4a690d47c7!2sA.+A.+Grupo+Cabula+VI+-+26!5e0!3m2!1spt-BR!2sbr!4v1531928209598" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+      },
     ]
     return estabelecimentos;
   }
