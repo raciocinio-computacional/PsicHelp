@@ -21,7 +21,7 @@ export class LocalServiceProvider {
       "p": "Orientação Profissional",
       "l": "LGBT",
       "d": "Drogas",
-      "online": "On Line"
+      "online": "Online"
     }
     // Tipos de serviço psicologia
     let estabelecimentos = [
@@ -519,9 +519,9 @@ export class LocalServiceProvider {
       {
         nome: "Consultório de Psicologia Adam Pereira",
         end: "Estrada Guandu do Sapê, 112, sl 201, Campo Grande, Rio de Janeiro - RJ",
-        tel: "(21)99236-8979",
+        tel: "(21)99246-8979",
         email: "adam.psique@gmail.com",
-        valor: "R$40,00",
+        valor: "Valor social (valor acessível)",
         servico: [s.online, s.i],
         descricao_servicos: "Psicologia. Atendimento online de diversas cidades do Brasil e exterior. www.psicologiaviva.com.br/adampereira",
         mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.752594523973!2d-43.563493985034825!3d-22.885595985022633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be3d8b1d97801%3A0x4bde266ba454f14c!2sEstr.+Guand%C3%BA+do+Sap%C3%A9%2C+112+-+Campo+Grande%2C+Rio+de+Janeiro+-+RJ%2C+23075-000!5e0!3m2!1spt-BR!2sbr!4v1531978532356" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'

@@ -27,7 +27,15 @@ else
 fi
 cd ..
 
-acp Publicando o webApp 
+acp Publicando o webApp no raciocínio computacional 
+
+cd ../site
+git pull
+rm -rf ios 
+cp ../app/www ios -r
+
+acp Publicando o webApp no psicweb/ios 
+
 echo teste agora em https://bit.ly/psichelpweb funcionou?
 read answer
 if [ "$answer" != "${answer#[SsYy]}" ] ;then
@@ -36,3 +44,5 @@ else
     echo Eita pau!!!!!!!!!!!!!!!!!!!
     exit
 fi
+
+
