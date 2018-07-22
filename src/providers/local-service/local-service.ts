@@ -21,7 +21,8 @@ export class LocalServiceProvider {
       "p": "Orientação Profissional",
       "l": "LGBT",
       "d": "Drogas",
-      "online": "Online"
+      "online": "Online",
+      "psicologo_plano": "Planos de saúde - Psicologos",
     }
     // Tipos de serviço psicologia
     let estabelecimentos = [
@@ -524,7 +525,7 @@ export class LocalServiceProvider {
         valor: "Valor social (valor acessível)",
         servico: [s.online, s.i],
         descricao_servicos: "Psicologia. Atendimento online de diversas cidades do Brasil e exterior. www.psicologiaviva.com.br/adampereira",
-        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.752594523973!2d-43.563493985034825!3d-22.885595985022633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be3d8b1d97801%3A0x4bde266ba454f14c!2sEstr.+Guand%C3%BA+do+Sap%C3%A9%2C+112+-+Campo+Grande%2C+Rio+de+Janeiro+-+RJ%2C+23075-000!5e0!3m2!1spt-BR!2sbr!4v1531978532356" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.752594523973!2d-43.563493985034825!3d-22.885595985022633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be3d8b1d97801%3A0x4bde266ba454f14c!2sEstr.+Guand%C3%BA+do+Sap%C3%A9%2C+112+-+Campo+Grande%2C+Rio+de+Janeiro+-+RJ%2C+23075-000!5e0!3m2!1spt-BR!2sbr!4v1531978532356" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
       },
 
       //Williams
@@ -535,7 +536,7 @@ export class LocalServiceProvider {
         valor: "Contribuição voluntária",
         servico: [s.d],
         descricao_servicos: "Auxílio a individuo com problemas alcoólicos",
-        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.257528236325!2d-38.48325668517819!3d-12.955365990866555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161acc7378dbc9%3A0xc2f2ccf2abcbca04!2sA.+A.+Grupo+-+26!5e0!3m2!1spt-BR!2sbr!4v1531927300676" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.257528236325!2d-38.48325668517819!3d-12.955365990866555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161acc7378dbc9%3A0xc2f2ccf2abcbca04!2sA.+A.+Grupo+-+26!5e0!3m2!1spt-BR!2sbr!4v1531927300676" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
       },
       {
         nome: "Grupo Brotas",
@@ -544,7 +545,7 @@ export class LocalServiceProvider {
         valor: "Contribuição voluntária",
         servico: [s.d],
         descricao_servicos: "Auxílio a individuo com problemas alcoólicos",
-        mapa: ' <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.732428717619!2d-38.484210949558204!3d-12.9889581636326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b4a674c07a7%3A0x4951edf977d21e07!2sGrupo+Brotas+de+Narc%C3%B3ticos+An%C3%B4nimos!5e0!3m2!1spt-BR!2sbr!4v1531927536286" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+        mapa: ' <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.732428717619!2d-38.484210949558204!3d-12.9889581636326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b4a674c07a7%3A0x4951edf977d21e07!2sGrupo+Brotas+de+Narc%C3%B3ticos+An%C3%B4nimos!5e0!3m2!1spt-BR!2sbr!4v1531927536286" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
       },
       {
         nome: "A. A. Grupo Libertação ",
@@ -553,7 +554,7 @@ export class LocalServiceProvider {
         valor: "Contribuição voluntária",
         servico: [s.d],
         descricao_servicos: "Auxílio a individuo com problemas alcoólicos",
-        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.8360543033577!2d-38.36761724955931!3d-12.91825656219534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161703f4cbe311%3A0xe3ef967e29329c3c!2sA.+A.+Grupo+Liberta%C3%A7%C3%A3o+-+26!5e0!3m2!1spt-BR!2sbr!4v1531927594266" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.8360543033577!2d-38.36761724955931!3d-12.91825656219534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161703f4cbe311%3A0xe3ef967e29329c3c!2sA.+A.+Grupo+Liberta%C3%A7%C3%A3o+-+26!5e0!3m2!1spt-BR!2sbr!4v1531927594266" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
       },
       {
         nome: "A. A. Grupo Unidos de Brotas",
@@ -562,7 +563,7 @@ export class LocalServiceProvider {
         valor: "Contribuição voluntária",
         servico: [s.d],
         descricao_servicos: "Auxílio a individuo com problemas alcoólicos",
-        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.888649864694!2d-38.49734524955829!3d-12.978973163429142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604cf7b513c8b%3A0xf64869a42dd39f27!2sA.+A.+Grupo+Unidos+de+Brotas+-+26!5e0!3m2!1spt-BR!2sbr!4v1531927638706" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.888649864694!2d-38.49734524955829!3d-12.978973163429142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604cf7b513c8b%3A0xf64869a42dd39f27!2sA.+A.+Grupo+Unidos+de+Brotas+-+26!5e0!3m2!1spt-BR!2sbr!4v1531927638706" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
       },
       {
         nome: "A. A. Grupo Sete ",
@@ -571,7 +572,7 @@ export class LocalServiceProvider {
         valor: "Contribuição voluntária",
         servico: [s.d],
         descricao_servicos: "Auxílio a individuo com problemas alcoólicos",
-        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.978233227609!2d-38.50972404955828!3d-12.973243963312461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604e7c32fe977%3A0xbe83a5c30baa470d!2sA.+A.+Grupo+Sete+Portas+-+26!5e0!3m2!1spt-BR!2sbr!4v1531927810186" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.978233227609!2d-38.50972404955828!3d-12.973243963312461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604e7c32fe977%3A0xbe83a5c30baa470d!2sA.+A.+Grupo+Sete+Portas+-+26!5e0!3m2!1spt-BR!2sbr!4v1531927810186" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
       },
       {
         nome: "A. A. Grupo Caminho",
@@ -580,7 +581,7 @@ export class LocalServiceProvider {
         valor: "Contribuição voluntária",
         servico: [s.d],
         descricao_servicos: "Auxílio a individuo com problemas alcoólicos",
-        mapa: '<iframe src="https://www.google.com/maps/embed?pb" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
       },
       {
         nome: "A. A. Grupo Cabula VI",
@@ -589,7 +590,91 @@ export class LocalServiceProvider {
         valor: "Contribuição voluntária",
         servico: [s.d],
         descricao_servicos: "Auxílio a individuo com problemas alcoólicos",
-        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.2847568162692!2d-38.444730549558685!3d-12.953621762913238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161a61da0de185%3A0xcd329b4a690d47c7!2sA.+A.+Grupo+Cabula+VI+-+26!5e0!3m2!1spt-BR!2sbr!4v1531928209598" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.2847568162692!2d-38.444730549558685!3d-12.953621762913238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161a61da0de185%3A0xcd329b4a690d47c7!2sA.+A.+Grupo+Cabula+VI+-+26!5e0!3m2!1spt-BR!2sbr!4v1531928209598" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+      },
+      // Williams
+      {
+        nome: "Narcóticos Anônimos",
+        end: "Praça da Matriz, 04 - São Cristóvão, Salvador - BA, 41510-090",
+        tel: "(71) 3322-7757",
+        valor: "contribuição voluntária",
+        servico: [s.d],
+        descricao_servicos: "Auxílio ao indivíduo com problemas relativos as drogas",
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.9381034876596!2d-38.355463449559345!3d-12.911699762062517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161653897e6229%3A0x9700805773f10ead!2zTmFyY8OzdGljb3MgQW7DtG5pbW9z!5e0!3m2!1spt-BR!2sbr!4v1532092895985" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+      },
+      {
+        nome: "Narcoticos Anonimos",
+        end: "D, R. J St. H Mussurunga I, 1 - Mussurunga II, Salvador - BA",
+        tel: "(71) 98213-1953",
+        valor: "contribuição voluntária",
+        servico: [s.d],
+        descricao_servicos: "Auxílio ao indivíduo com problemas relativos as drogas",
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.8465945110356!2d-38.36755058517858!3d-12.917579490891352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71617038abed2cb%3A0xdf544489cf7478bd!2sNarcoticos+Anonimos!5e0!3m2!1spt-BR!2sbr!4v1532093692247" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+      },
+      {
+        nome: "Grupo Esperança de Narcóticos Anônimos",
+        end: "R. Esperança, 290 - Stiep, Salvador - BA",
+        tel: "(71) 98213-1953",
+        valor: "contribuição voluntária",
+        servico: [s.d],
+        descricao_servicos: "Auxílio ao indivíduo com problemas relativos as drogas",
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.4848399690122!2d-38.48514394955811!3d-13.004767563955092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b55052101cb%3A0xa0bd6ed35077e916!2sGrupo+Esperan%C3%A7a+de+Narc%C3%B3ticos+An%C3%B4nimos!5e0!3m2!1spt-BR!2sbr!4v1532093797118" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+      },
+      {
+        nome: "Grupo Milagres de Narcóticos Anônimos",
+        end: "Água de Meninos, Salvador - State of Bahia, 40301-155",
+        tel: "(71) 98213-1953",
+        valor: "contribuição voluntária",
+        servico: [s.d],
+        descricao_servicos: "Auxílio ao indivíduo com problemas relativos as drogas",
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.179616175057!2d-38.50529104955855!3d-12.960355663050233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7160523d5fa6d35%3A0x57cfd50aadf2391a!2sGrupo+Milagres+de+Narc%C3%B3ticos+An%C3%B4nimos!5e0!3m2!1spt-BR!2sbr!4v1532093874593" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+      },
+      {
+        nome: "Grupo Lapa de Praça Conselheiro Almeida Couto",
+        end: "Praça Conselheiro Almeida Couto - Nazaré, Salvador - BA, 40025-390",
+        tel: "(71) 98213-1953",
+        valor: "contribuição voluntária",
+        servico: [s.d],
+        descricao_servicos: "Auxílio ao indivíduo com problemas relativos as drogas",
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.9576108583824!2d-38.504350949558464!3d-12.974563063339346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604dcca3df9f7%3A0x907abba08694ca0d!2sGrupo+Lapa+de+Narc%C3%B3ticos+An%C3%B4nimos!5e0!3m2!1spt-BR!2sbr!4v1532093992414" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+      },
+      {
+        nome: "Grupo Narcoticos Anonimos Itapua",
+        end: "R. do Céu, 12 - Itapuã, Salvador - BA, 41610-450",
+        tel: "(71) 98213-1953",
+        valor: "contribuição voluntária",
+        servico: [s.d],
+        descricao_servicos: "Auxílio ao indivíduo com problemas relativos as drogas",
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31108.947797914814!2d-38.41002564142727!3d-12.932225436343277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716177dd266c1ed%3A0x9d82981de3fb46a2!2sGrupo+Narcoticos+Anonimos+Itapua!5e0!3m2!1spt-BR!2sbr!4v1532094051294" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+      },
+      {
+        nome: "Grupo Brotas de Narcoticos Anonimos",
+        end: "Av. Dom João VI, 423 - Brotas, Salvador - BA, 40285-000",
+        tel: "(71) 98213-1953",
+        valor: "contribuição voluntária",
+        servico: [s.d],
+        descricao_servicos: "Auxílio ao indivíduo com problemas relativos as drogas",
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7324287176093!2d-38.48421094955817!3d-12.988958163632601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b4a674c07a7%3A0x4951edf977d21e07!2sGrupo+Brotas+de+Narc%C3%B3ticos+An%C3%B4nimos!5e0!3m2!1spt-BR!2sbr!4v1532094184290" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+      },
+      {
+        nome: "Grupo Itapuã Narcóticos Anônimos",
+        end: "R. Ivana, s/n - Itapuã, Salvador - BA, 40610-450",
+        tel: "(71) 98213-1953",
+        valor: "contribuição voluntária",
+        servico: [s.d],
+        descricao_servicos: "Auxílio ao indivíduo com problemas relativos as drogas",
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d124407.5288544306!2d-38.5522398!3d-12.9887762!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71610e9a3d16a29%3A0x72190debbf1ec98f!2sGrupo+Itapu%C3%A3+Narc%C3%B3ticos+An%C3%B4nimos!5e0!3m2!1spt-BR!2sbr!4v1532094341184" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+      },
+
+      // Evandro
+      {
+        nome: "Clínica Semdor",
+        end: "Av. Garibaldi, nº 1815, CME sala 101-B, Ondina – Salvador – Bahia",
+        tel: "(71)3332-3165 | 98122-1203",
+        valor: "Planos de saúde ou particular",
+        servico: [s.psicologo_plano, s.i],
+        descricao_servicos: "Psicologia",
+        mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.4958240792207!2d-38.504465385177646!3d-13.004066590834594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716035f68fd4fa5%3A0xcc461d33a2edf719!2sCl%C3%ADnica+SEMDOR!5e0!3m2!1spt-BR!2sbr!4v1532249067082" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
       },
     ]
     return estabelecimentos;
