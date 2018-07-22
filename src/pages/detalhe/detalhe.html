@@ -34,6 +34,13 @@
       </span>
     </ion-item>
 
+    <ion-item bg-secondary *ngIf="estabelecimento.whatsapp" text-wrap>
+      <span light>
+        <ion-icon name="logo-whatsapp" item-start></ion-icon>
+        <a light href="tel:{{estabelecimento.whatsapp}}">{{estabelecimento.whatsapp}}</a>
+      </span>
+    </ion-item>
+
     <ion-item bg-secondary *ngIf="estabelecimento.email" text-wrap>
       <span light>
         <ion-icon name="md-mail" item-start></ion-icon>
