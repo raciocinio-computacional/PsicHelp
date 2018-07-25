@@ -9,51 +9,61 @@
 <ion-content class="card-background-page conteudo">
 
   <!-- Cartao indivial -->
-  <ion-card (click)="listar('CAPS')">
-    <img src="assets/imgs/caps.jpg" />
-    <div class="card-title">Auxílio Psicossocial</div>
-  </ion-card>
   
   <ion-card (click)="listar('Terapia individual')">
     <img src="assets/imgs/individual.jpg" />
-    <div class="card-title">Individual</div>
+    <div class="card-subtitle">Atendimento</div>
+    <div class="card-title">Individualizado</div>
   </ion-card>
   
   <ion-card (click)="listar('Online')">
     <img src="assets/imgs/online.jpg" />
+    <div class="card-subtitle">Atendimento</div>
     <div class="card-title">Online</div>
   </ion-card>
 
   <ion-card (click)="listar('Terapia de Grupo')">
     <img src="assets/imgs/grupal.jpg" />
-    <div class="card-title">Grupal</div>
+    <div class="card-subtitle">Atendimento por</div>
+    <div class="card-title">Grupos de ajuda</div>
   </ion-card>
 
   <ion-card (click)="listar('Terapia Familiar')">
     <img src="assets/imgs/familiar.jpg" />
+    <div class="card-subtitle">Atendimento</div>
     <div class="card-title">Familiar</div>
   </ion-card>
 
   <ion-card (click)="listar('Terapia Conjugal')">
     <img src="assets/imgs/casal.jpg" />
-    <div class="card-title">Conjugal</div>
+    <div class="card-subtitle">Terapia</div>
+    <div class="card-title">Para casais</div>
   </ion-card>
 
   <ion-card (click)="listar('Orientação Profissional')">
     <img src="assets/imgs/profissional.jpg" />
+    <div class="card-subtitle">Orientação</div>
     <div class="card-title">Profissional</div>
   </ion-card>
 
   <ion-card (click)="listar('LGBT')">
     <img src="assets/imgs/lgbt.jpg" />
-    <div class="card-title">LGBT Apoio Emocional</div>
+    <div class="card-subtitle">Suporte emocional e legal</div>
+    <div class="card-title">LGBT</div>
   </ion-card>
 
   <ion-card (click)="listar('Drogas')">
     <img src="assets/imgs/drogas.jpg" />
+    <div class="card-subtitle">Grupos de ajuda e clínicas</div>
     <div class="card-title">Álcool e outras drogas</div>
   </ion-card>
 
+  <ion-card (click)="listar('CAPS')">
+    <img src="assets/imgs/caps.jpg" />
+    <div class="card-subtitle">Centros de atenção</div>
+    <div class="card-title">Psicossocial</div>
+  </ion-card>
+ 
   <ion-card (click)="listar('Planos de saúde - Psicologos')">
     <img src="assets/imgs/planos-de-saude.jpg" />
     <div class="card-title">Planos de Saúde</div>
