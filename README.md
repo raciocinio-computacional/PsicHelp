@@ -1,5 +1,7 @@
 # PsicHelp
 
+# Versão desatualizada, projeto se mudou para: github.com/psichelp
+
 ## [Site oficial do app: https://psichelp.com.br](https://psichelp.com.br)
 
 ```
